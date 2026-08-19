@@ -1,163 +1,167 @@
 {
   "items": [
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "内核版本中的 BPF 特性列表",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 34921116,
+                "language": "C",
+                "last_commit": "2026-08-14T08:23:06Z",
+                "owner": "iovisor",
+                "repo": "bcc",
+                "stars": 22626
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "IO Visor 的非官方 eBPF 规范",
+              "description": "eBPF 语法和操作码摘要。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 41122712,
+                "language": null,
+                "last_commit": "2022-09-20T16:08:15Z",
+                "owner": "iovisor",
+                "repo": "bpf-docs",
+                "stars": 1017
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "其他"
+        }
+      ],
       "title": "参考文档"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "内核版本中的 BPF 特性列表",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-14T08:23:06Z",
-            "owner": "iovisor",
-            "repo": "bcc",
-            "stars": 22623
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "BPF 参考指南",
+              "description": "来自 bcc 仓库的 BPF C 和 bcc Python 辅助函数指南。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 34921116,
+                "language": "C",
+                "last_commit": "2026-08-14T08:23:06Z",
+                "owner": "iovisor",
+                "repo": "bcc",
+                "stars": 22626
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "eBPF入门指南",
+              "description": "一组现场编码讲座及其附带的代码示例，介绍使用各种库和程序类型进行eBPF编程。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 307367546,
+                "language": "Python",
+                "last_commit": "2023-05-08T14:59:28Z",
+                "owner": "lizrice",
+                "repo": "ebpf-beginners",
+                "stars": 1728
+              }
+            }
+          ],
+          "description": "如果您刚接触 eBPF，可能想先查看本节中标记为\"介绍\"的链接。",
+          "node_type": "group",
+          "title": "通用的 eBPF 演示文稿和文章"
         },
         {
-          "node_type": "item",
-          "title": "IO Visor 的非官方 eBPF 规范",
-          "description": "eBPF 语法和操作码摘要。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2022-09-20T16:08:15Z",
-            "owner": "iovisor",
-            "repo": "bpf-docs",
-            "stars": 1017
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "eXpress Data Path (XDP)",
+              "description": "关于XDP的第一份演示文稿。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 41122712,
+                "language": null,
+                "last_commit": "2022-09-20T16:08:15Z",
+                "owner": "iovisor",
+                "repo": "bpf-docs",
+                "stars": 1017
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "所有XDP的细节都在这篇技术论文中：The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel",
+              "description": "，作者为Toke Høiland-Jørgensen、Jesper Dangaard Brouer、Daniel Borkmann、John Fastabend、Tom Herbert、David Ahern和David Miller，他们都是重要的eBPF和XDP贡献者。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 149286664,
+                "language": "CSS",
+                "last_commit": "2021-01-15T16:28:13Z",
+                "owner": "tohojo",
+                "repo": "xdp-paper",
+                "stars": 151
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "XDP"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "hBPF - eBPF 在硬件中的实现",
+              "description": "针对 FPGAs 编写的 eBPF CPU。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 354273285,
+                "language": "Python",
+                "last_commit": "2023-01-27T12:01:25Z",
+                "owner": "rprinz08",
+                "repo": "hBPF",
+                "stars": 433
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenCSD eBPF SSD 卸载",
+              "description": "计算存储模拟（QEMU）平台，使用 FUSE LFS 文件系统和 uBPF 进行计算内核卸载，适用于分区命名空间 NVMe SSD，全部在用户空间中。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 335318237,
+                "language": "C++",
+                "last_commit": "2023-11-01T06:40:09Z",
+                "owner": "Dantali0n",
+                "repo": "OpenCSD",
+                "stars": 69
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "硬件卸载"
         }
       ],
-      "title": "其他"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "文章和演示"
     },
     {
-      "description": "如果您刚接触 eBPF，可能想先查看本节中标记为\"介绍\"的链接。",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "BPF 参考指南",
-          "description": "来自 bcc 仓库的 BPF C 和 bcc Python 辅助函数指南。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-14T08:23:06Z",
-            "owner": "iovisor",
-            "repo": "bcc",
-            "stars": 22623
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "eBPF入门指南",
-          "description": "一组现场编码讲座及其附带的代码示例，介绍使用各种库和程序类型进行eBPF编程。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-05-08T14:59:28Z",
-            "owner": "lizrice",
-            "repo": "ebpf-beginners",
-            "stars": 1728
-          }
-        }
-      ],
-      "title": "通用的 eBPF 演示文稿和文章"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "eXpress Data Path (XDP)",
-          "description": "关于XDP的第一份演示文稿。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2022-09-20T16:08:15Z",
-            "owner": "iovisor",
-            "repo": "bpf-docs",
-            "stars": 1017
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "所有XDP的细节都在这篇技术论文中：The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel",
-          "description": "，作者为Toke Høiland-Jørgensen、Jesper Dangaard Brouer、Daniel Borkmann、John Fastabend、Tom Herbert、David Ahern和David Miller，他们都是重要的eBPF和XDP贡献者。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "CSS",
-            "last_commit": "2021-01-15T16:28:13Z",
-            "owner": "tohojo",
-            "repo": "xdp-paper",
-            "stars": 151
-          }
-        }
-      ],
-      "title": "XDP"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "BTF"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "cBPF"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "hBPF - eBPF 在硬件中的实现",
-          "description": "针对 FPGAs 编写的 eBPF CPU。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-01-27T12:01:25Z",
-            "owner": "rprinz08",
-            "repo": "hBPF",
-            "stars": 433
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenCSD eBPF SSD 卸载",
-          "description": "计算存储模拟（QEMU）平台，使用 FUSE LFS 文件系统和 uBPF 进行计算内核卸载，适用于分区命名空间 NVMe SSD，全部在用户空间中。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2023-11-01T06:40:09Z",
-            "owner": "Dantali0n",
-            "repo": "OpenCSD",
-            "stars": 69
-          }
-        }
-      ],
-      "title": "硬件卸载"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -166,11 +170,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 34921116,
             "language": "C",
             "last_commit": "2026-08-14T08:23:06Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22623
+            "stars": 22626
           }
         },
         {
@@ -180,11 +185,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 34921116,
             "language": "C",
             "last_commit": "2026-08-14T08:23:06Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22623
+            "stars": 22626
           }
         },
         {
@@ -194,6 +200,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 172523426,
             "language": "C",
             "last_commit": "2026-05-08T20:13:46Z",
             "owner": "xdp-project",
@@ -208,6 +215,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 61016178,
             "language": "HTML",
             "last_commit": "2020-06-19T09:20:08Z",
             "owner": "goldshtn",
@@ -219,7 +227,7 @@
       "title": "教程"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -228,11 +236,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 34921116,
             "language": "C",
             "last_commit": "2026-08-14T08:23:06Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22623
+            "stars": 22626
           }
         },
         {
@@ -242,11 +251,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 34921116,
             "language": "C",
             "last_commit": "2026-08-14T08:23:06Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22623
+            "stars": 22626
           }
         },
         {
@@ -256,6 +266,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 150129388,
             "language": "Rust",
             "last_commit": "2023-06-30T10:23:27Z",
             "owner": "foniod",
@@ -270,6 +281,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 25579442,
             "language": "C",
             "last_commit": "2025-01-16T18:31:50Z",
             "owner": "netoptimizer",
@@ -284,6 +296,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 142334165,
             "language": "C",
             "last_commit": "2020-04-06T16:23:50Z",
             "owner": "Netronome",
@@ -298,6 +311,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 162130996,
             "language": "C",
             "last_commit": "2026-07-03T09:38:05Z",
             "owner": "vbpf",
@@ -312,6 +326,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 165128326,
             "language": "C",
             "last_commit": "2019-10-18T22:00:44Z",
             "owner": "fzakaria",
@@ -326,6 +341,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 320541103,
             "language": "C",
             "last_commit": "2026-07-13T06:51:30Z",
             "owner": "niclashedam",
@@ -337,713 +353,809 @@
       "title": "示例"
     },
     {
-      "description": "",
-      "items": [],
-      "title": "eBPF 工作流：工具和实用程序"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "bcc",
-          "description": "框架和工具 - 一种处理 BPF 程序的方法，特别是用于跟踪和监控。还包括一些实用程序，可帮助检查系统中的映射或程序。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-14T08:23:06Z",
-            "owner": "iovisor",
-            "repo": "bcc",
-            "stars": 22623
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "bcc 的 Lua 前端",
-          "description": "另一种替代 C，甚至是 bcc 中大多数 Python 代码的选择。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-14T08:23:06Z",
-            "owner": "iovisor",
-            "repo": "bcc",
-            "stars": 22623
-          }
-        }
-      ],
-      "title": "bcc"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "LLVM"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "libbpf",
-          "description": "一个用于处理BPF对象（程序和映射）和操作包含它们的ELF对象文件的C库。它随内核一起提供，并在GitHub上进行了镜像。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-07-30T18:20:16Z",
-            "owner": "libbpf",
-            "repo": "libbpf",
-            "stars": 2746
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "libbpf-bootstrap",
-          "description": "用于使用libbpf和BPF CO-RE进行BPF应用开发的脚手架。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "CMake",
-            "last_commit": "2026-08-03T19:37:55Z",
-            "owner": "libbpf",
-            "repo": "libbpf-bootstrap",
-            "stars": 1519
-          }
-        }
-      ],
-      "title": "libbpf"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "cilium/ebpf",
-          "description": "纯Go库，用于读取、修改、加载eBPF程序并将其附加到Linux内核中的各种钩子。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T09:42:36Z",
-            "owner": "cilium",
-            "repo": "ebpf",
-            "stars": 7914
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "gobpf",
-          "description": "用于创建eBPF程序的BCC的Go绑定。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2023-08-31T05:47:21Z",
-            "owner": "iovisor",
-            "repo": "gobpf",
-            "stars": 2181
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "libbpfgo",
-          "description": "由libbpf支持的用于Go的eBPF库。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-17T11:14:33Z",
-            "owner": "aquasecurity",
-            "repo": "libbpfgo",
-            "stars": 846
-          }
-        }
-      ],
-      "title": "Go 库"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "aya",
-          "description": "一种用纯 Rust 编写、加载和管理 eBPF 对象的库，专注于开发人员体验和可操作性。它支持在 Rust 中编写 eBPF 程序，并通过 crates.io 分发库代码以在 eBPF 程序之间共享。Aya 不依赖于 libbpf。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-18T17:14:55Z",
-            "owner": "aya-rs",
-            "repo": "aya",
-            "stars": 4769
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "aya-template",
-          "description": "用于在 Aya 中编写 BPF 应用程序的模板，可以与 一起使用。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-15T20:32:08Z",
-            "owner": "aya-rs",
-            "repo": "aya-template",
-            "stars": 140
-          }
-        }
-      ],
-      "title": "Aya"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "rbpf",
-          "description": "用 Rust 编写。用于 Linux、macOS 和 Windows 的解释器，以及在 Linux 下用于 x86_64 的 JIT 编译器。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-06-03T21:44:37Z",
-            "owner": "qmonnet",
-            "repo": "rbpf",
-            "stars": 1125
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "uBPF",
-          "description": "用 C 编写。包含一个解释器、一个用于 x86_64 架构的 JIT 编译器、一个汇编器和反汇编器。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-08T15:06:35Z",
-            "owner": "iovisor",
-            "repo": "ubpf",
-            "stars": 987
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PREVAIL",
-          "description": "用于 eBPF 的用户空间验证器，使用抽象解释层实现，支持循环。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-15T21:16:54Z",
-            "owner": "vbpf",
-            "repo": "prevail",
-            "stars": 468
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "oster",
-          "description": "用 Go 编写。通过将 eBPF 附加到 uprobes 来跟踪 Go 程序的执行的工具。",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2025-03-13T15:31:35Z",
-            "owner": "grantseltzer",
-            "repo": "weaver",
-            "stars": 304
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "A generic implementation",
-          "description": "支持 FreeBSD kernel、FreeBSD user space、Linux kernel、Linux user space 和 macOS user space。用于 VALE 软件交换机 的 BPF 扩展模块。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2021-05-28T09:29:01Z",
-            "owner": "generic-ebpf",
-            "repo": "generic-ebpf",
-            "stars": 154
-          }
-        }
-      ],
-      "title": "用户空间 eBPF"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Docker容器中的bcc",
-          "description": "。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Makefile",
-            "last_commit": "2020-07-23T21:28:01Z",
-            "owner": "zlim",
-            "repo": "bcc-docker",
-            "stars": 45
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Vagrant设置",
-          "description": "方便测试XDP。现在通用的XDP已经存在，所以用处较少（独立于驱动程序，主要用于测试）。",
-          "children": []
-        }
-      ],
-      "title": "在虚拟环境中进行测试"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "eBPF 相关项目"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Cilium",
-          "description": "项目 (GitHub 代码库) 是一项依赖于 BPF 和 XDP 技术的项目，可为基于容器的快速内核网络和安全策略实施提供“即时生成的eBPF程序”的支持。有许多演示文稿可用（有些内容重复）：",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T17:45:32Z",
-            "owner": "cilium",
-            "repo": "cilium",
-            "stars": 24960
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "merbridge",
-          "description": "使用eBPF加速您的Service Mesh。Merbridge使用eBPF替换iptables规则以拦截流量。它还结合了msg_redirect以减少延迟，并在sidecars和服务之间缩短了数据路径。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2025-05-19T17:46:13Z",
-            "owner": "merbridge",
-            "repo": "merbridge",
-            "stars": 808
-          }
-        },
-        {
-          "node_type": "group",
-          "title": "P4 on the Edge",
-          "description": "使用 eBPF 创建高性能可编程交换机的 P4。",
           "children": [
             {
               "node_type": "item",
-              "title": "P4 使用 eBPF 的旧文档",
-              "description": "来自 bcc 存储库；由下面链接的 P4_16 后端弃用。",
+              "title": "bcc",
+              "description": "框架和工具 - 一种处理 BPF 程序的方法，特别是用于跟踪和监控。还包括一些实用程序，可帮助检查系统中的映射或程序。",
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 34921116,
                 "language": "C",
                 "last_commit": "2026-08-14T08:23:06Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22623
+                "stars": 22626
               }
             },
             {
               "node_type": "item",
-              "title": "eBPF 的 P4_16 后端",
+              "title": "bcc 的 Lua 前端",
+              "description": "另一种替代 C，甚至是 bcc 中大多数 Python 代码的选择。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 34921116,
+                "language": "C",
+                "last_commit": "2026-08-14T08:23:06Z",
+                "owner": "iovisor",
+                "repo": "bcc",
+                "stars": 22626
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "bcc"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "libbpf",
+              "description": "一个用于处理BPF对象（程序和映射）和操作包含它们的ELF对象文件的C库。它随内核一起提供，并在GitHub上进行了镜像。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 152338895,
+                "language": "C",
+                "last_commit": "2026-07-30T18:20:16Z",
+                "owner": "libbpf",
+                "repo": "libbpf",
+                "stars": 2747
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "libbpf-bootstrap",
+              "description": "用于使用libbpf和BPF CO-RE进行BPF应用开发的脚手架。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 303065613,
+                "language": "CMake",
+                "last_commit": "2026-08-03T19:37:55Z",
+                "owner": "libbpf",
+                "repo": "libbpf-bootstrap",
+                "stars": 1519
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "libbpf"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "cilium/ebpf",
+              "description": "纯Go库，用于读取、修改、加载eBPF程序并将其附加到Linux内核中的各种钩子。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 206649463,
+                "language": "Go",
+                "last_commit": "2026-08-18T09:42:36Z",
+                "owner": "cilium",
+                "repo": "ebpf",
+                "stars": 7916
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "gobpf",
+              "description": "用于创建eBPF程序的BCC的Go绑定。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 74155923,
+                "language": "C",
+                "last_commit": "2023-08-31T05:47:21Z",
+                "owner": "iovisor",
+                "repo": "gobpf",
+                "stars": 2181
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "libbpfgo",
+              "description": "由libbpf支持的用于Go的eBPF库。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 366477581,
+                "language": "Go",
+                "last_commit": "2026-08-17T11:14:33Z",
+                "owner": "aquasecurity",
+                "repo": "libbpfgo",
+                "stars": 846
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Go 库"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "aya",
+              "description": "一种用纯 Rust 编写、加载和管理 eBPF 对象的库，专注于开发人员体验和可操作性。它支持在 Rust 中编写 eBPF 程序，并通过 crates.io 分发库代码以在 eBPF 程序之间共享。Aya 不依赖于 libbpf。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 331227477,
+                "language": "Rust",
+                "last_commit": "2026-08-19T12:07:56Z",
+                "owner": "aya-rs",
+                "repo": "aya",
+                "stars": 4770
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "aya-template",
+              "description": "用于在 Aya 中编写 BPF 应用程序的模板，可以与 一起使用。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 392741237,
+                "language": "Rust",
+                "last_commit": "2026-08-15T20:32:08Z",
+                "owner": "aya-rs",
+                "repo": "aya-template",
+                "stars": 140
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Aya"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "rbpf",
+              "description": "用 Rust 编写。用于 Linux、macOS 和 Windows 的解释器，以及在 Linux 下用于 x86_64 的 JIT 编译器。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 78370639,
+                "language": "Rust",
+                "last_commit": "2026-06-03T21:44:37Z",
+                "owner": "qmonnet",
+                "repo": "rbpf",
+                "stars": 1124
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "uBPF",
+              "description": "用 C 编写。包含一个解释器、一个用于 x86_64 架构的 JIT 编译器、一个汇编器和反汇编器。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 42490910,
+                "language": "C",
+                "last_commit": "2026-08-08T15:06:35Z",
+                "owner": "iovisor",
+                "repo": "ubpf",
+                "stars": 988
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PREVAIL",
+              "description": "用于 eBPF 的用户空间验证器，使用抽象解释层实现，支持循环。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 137548993,
+                "language": "C++",
+                "last_commit": "2026-08-15T21:16:54Z",
+                "owner": "vbpf",
+                "repo": "prevail",
+                "stars": 468
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "oster",
+              "description": "用 Go 编写。通过将 eBPF 附加到 uprobes 来跟踪 Go 程序的执行的工具。",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 232918063,
+                "language": "Go",
+                "last_commit": "2025-03-13T15:31:35Z",
+                "owner": "grantseltzer",
+                "repo": "weaver",
+                "stars": 304
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "A generic implementation",
+              "description": "支持 FreeBSD kernel、FreeBSD user space、Linux kernel、Linux user space 和 macOS user space。用于 VALE 软件交换机 的 BPF 扩展模块。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 99342233,
+                "language": "C",
+                "last_commit": "2021-05-28T09:29:01Z",
+                "owner": "generic-ebpf",
+                "repo": "generic-ebpf",
+                "stars": 154
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "用户空间 eBPF"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Docker容器中的bcc",
               "description": "。",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "language": "C++",
-                "last_commit": "2026-08-18T01:51:24Z",
-                "owner": "p4lang",
-                "repo": "p4c",
-                "stars": 835
+                "id": 56827945,
+                "language": "Makefile",
+                "last_commit": "2020-07-23T21:28:01Z",
+                "owner": "zlim",
+                "repo": "bcc-docker",
+                "stars": 45
               }
             }
-          ]
-        },
-        {
-          "node_type": "group",
-          "title": "Suricata文档中“eBPF和XDP”部分",
+          ],
           "description": null,
+          "node_type": "group",
+          "title": "在虚拟环境中进行测试"
+        }
+      ],
+      "title": "eBPF 工作流：工具和实用程序"
+    },
+    {
+      "description": null,
+      "items": [
+        {
           "children": [
             {
               "node_type": "item",
-              "title": "SEPTun-Mark-II",
-              "description": "极致性能调优指南 - Mark II。",
+              "title": "Cilium",
+              "description": "项目 (GitHub 代码库) 是一项依赖于 BPF 和 XDP 技术的项目，可为基于容器的快速内核网络和安全策略实施提供“即时生成的eBPF程序”的支持。有许多演示文稿可用（有些内容重复）：",
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 48109239,
+                "language": "Go",
+                "last_commit": "2026-08-19T11:53:29Z",
+                "owner": "cilium",
+                "repo": "cilium",
+                "stars": 24969
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "merbridge",
+              "description": "使用eBPF加速您的Service Mesh。Merbridge使用eBPF替换iptables规则以拦截流量。它还结合了msg_redirect以减少延迟，并在sidecars和服务之间缩短了数据路径。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 447051452,
+                "language": "Go",
+                "last_commit": "2025-05-19T17:46:13Z",
+                "owner": "merbridge",
+                "repo": "merbridge",
+                "stars": 808
+              }
+            },
+            {
+              "node_type": "group",
+              "title": "P4 on the Edge",
+              "description": "使用 eBPF 创建高性能可编程交换机的 P4。",
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "P4 使用 eBPF 的旧文档",
+                  "description": "来自 bcc 存储库；由下面链接的 P4_16 后端弃用。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 34921116,
+                    "language": "C",
+                    "last_commit": "2026-08-14T08:23:06Z",
+                    "owner": "iovisor",
+                    "repo": "bcc",
+                    "stars": 22626
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "eBPF 的 P4_16 后端",
+                  "description": "。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 55433859,
+                    "language": "C++",
+                    "last_commit": "2026-08-19T03:21:03Z",
+                    "owner": "p4lang",
+                    "repo": "p4c",
+                    "stars": 835
+                  }
+                }
+              ]
+            },
+            {
+              "node_type": "group",
+              "title": "Suricata文档中“eBPF和XDP”部分",
+              "description": null,
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "SEPTun-Mark-II",
+                  "description": "极致性能调优指南 - Mark II。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 124362164,
+                    "language": "Makefile",
+                    "last_commit": "2018-04-17T12:55:25Z",
+                    "owner": "pevma",
+                    "repo": "SEPTun-Mark-II",
+                    "stars": 121
+                  }
+                }
+              ]
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "网络"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "pixie",
+              "description": "使用eBPF进行Kubernetes的可观测性分析。支持协议跟踪，应用程序分析以及分布式bpftrace部署等功能。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 243394576,
+                "language": "C++",
+                "last_commit": "2026-07-30T23:00:42Z",
+                "owner": "pixie-io",
+                "repo": "pixie",
+                "stars": 6516
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hubble",
+              "description": "使用eBPF为Kubernetes提供网络、服务和安全可观测性。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 222612062,
                 "language": "Makefile",
-                "last_commit": "2018-04-17T12:55:25Z",
-                "owner": "pevma",
-                "repo": "SEPTun-Mark-II",
-                "stars": 121
+                "last_commit": "2026-08-18T11:02:36Z",
+                "owner": "cilium",
+                "repo": "hubble",
+                "stars": 4299
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Caretta",
+              "description": "通过eBPF生成的即时Kubernetes服务依赖图，可直接输出到Grafana示例。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 568919373,
+                "language": "Go",
+                "last_commit": "2025-03-17T13:28:09Z",
+                "owner": "groundcover-com",
+                "repo": "caretta",
+                "stars": 2054
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "InKeV: In-Kernel Distributed Network Virtualization for DCN",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 41122712,
+                "language": null,
+                "last_commit": "2022-09-20T16:08:15Z",
+                "owner": "iovisor",
+                "repo": "bpf-docs",
+                "stars": 1017
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "parca-agent",
+              "description": "基于eBPF的持续分析CPU和内存使用情况的分析器，可分析到代码行和时间流逝情况。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 364992209,
+                "language": "Go",
+                "last_commit": "2026-08-17T13:41:17Z",
+                "owner": "parca-dev",
+                "repo": "parca-agent",
+                "stars": 742
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SkyWalking Rover",
+              "description": "Apache SkyWalking是一个专门为分布式微服务、云原生和基于容器（Kubernetes）架构而设计的开源应用程序性能监控（APM）平台。SkyWalking Rover是一个基于eBPF的调试器和度量收集器，支持C、C++、Golang和Rust应用程序。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 460670096,
+                "language": "Go",
+                "last_commit": "2026-08-10T05:55:51Z",
+                "owner": "apache",
+                "repo": "skywalking-rover",
+                "stars": 237
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "rbperf",
+              "description": "用于Ruby的采样分析器和跟踪器。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 510016042,
+                "language": "Rust",
+                "last_commit": "2024-04-21T14:15:13Z",
+                "owner": "javierhonduco",
+                "repo": "rbperf",
+                "stars": 124
               }
             }
-          ]
-        }
-      ],
-      "title": "网络"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "pixie",
-          "description": "使用eBPF进行Kubernetes的可观测性分析。支持协议跟踪，应用程序分析以及分布式bpftrace部署等功能。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-07-30T23:00:42Z",
-            "owner": "pixie-io",
-            "repo": "pixie",
-            "stars": 6516
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Hubble",
-          "description": "使用eBPF为Kubernetes提供网络、服务和安全可观测性。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Makefile",
-            "last_commit": "2026-08-18T11:02:36Z",
-            "owner": "cilium",
-            "repo": "hubble",
-            "stars": 4295
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Caretta",
-          "description": "通过eBPF生成的即时Kubernetes服务依赖图，可直接输出到Grafana示例。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2025-03-17T13:28:09Z",
-            "owner": "groundcover-com",
-            "repo": "caretta",
-            "stars": 2054
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "InKeV: In-Kernel Distributed Network Virtualization for DCN",
+          ],
           "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2022-09-20T16:08:15Z",
-            "owner": "iovisor",
-            "repo": "bpf-docs",
-            "stars": 1017
-          }
+          "node_type": "group",
+          "title": "可观测性"
         },
         {
-          "node_type": "item",
-          "title": "parca-agent",
-          "description": "基于eBPF的持续分析CPU和内存使用情况的分析器，可分析到代码行和时间流逝情况。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-17T13:41:17Z",
-            "owner": "parca-dev",
-            "repo": "parca-agent",
-            "stars": 741
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SkyWalking Rover",
-          "description": "Apache SkyWalking是一个专门为分布式微服务、云原生和基于容器（Kubernetes）架构而设计的开源应用程序性能监控（APM）平台。SkyWalking Rover是一个基于eBPF的调试器和度量收集器，支持C、C++、Golang和Rust应用程序。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-10T05:55:51Z",
-            "owner": "apache",
-            "repo": "skywalking-rover",
-            "stars": 237
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "rbperf",
-          "description": "用于Ruby的采样分析器和跟踪器。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2024-04-21T14:15:13Z",
-            "owner": "javierhonduco",
-            "repo": "rbperf",
-            "stars": 124
-          }
-        }
-      ],
-      "title": "可观测性"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Tetragon",
-          "description": "面向 Kubernetes、基于 eBPF 的安全监测和运行时强制执行工具。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-18T10:00:52Z",
-            "owner": "cilium",
-            "repo": "tetragon",
-            "stars": 4929
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Tracee",
-          "description": "一款用于 Linux 的运行时安全和取证工具，它使用 eBPF 技术对系统和应用程序进行跟踪，在运行时分析收集的事件以检测可疑的行为模式。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-11T20:35:49Z",
-            "owner": "aquasecurity",
-            "repo": "tracee",
-            "stars": 4584
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Sysmon for Linux",
-          "description": "一款安全监控工具。它依赖于SysinternalsEBPF。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-07-13T23:10:10Z",
-            "owner": "microsoft",
-            "repo": "SysmonForLinux",
-            "stars": 2151
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "bpflock - 锁定 Linux 机器",
-          "description": "一种基于 eBPF 的安全工具，用于锁定和审计 Linux 机器。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2022-02-16T21:30:06Z",
-            "owner": "linux-lock",
-            "repo": "bpflock",
-            "stars": 157
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "redcanary-ebpf-sensor",
-          "description": "一组 BPF 程序，从 Linux 内核中收集与安全相关的事件数据。BPF 程序组合成一个单独的 ELF 文件，可以根据运行的操作系统和内核版本选择性加载单个探针。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-06-26T22:33:14Z",
-            "owner": "redcanaryco",
-            "repo": "redcanary-ebpf-sensor",
-            "stars": 116
-          }
-        }
-      ],
-      "title": "安全"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "inspektor-gadget",
-          "description": "基于 eBPF 的工具集合，用于调试和检查 Kubernetes 资源和应用程序。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-18T11:26:34Z",
-            "owner": "inspektor-gadget",
-            "repo": "inspektor-gadget",
-            "stars": 2910
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "kubectl trace",
-          "description": "一个用于在 Kubernetes 集群中执行 bpftrace 程序的 kubectl 插件。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-04-16T20:47:34Z",
-            "owner": "iovisor",
-            "repo": "kubectl-trace",
-            "stars": 2185
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "redbpf",
-          "description": "用于高效编写 Rust 中的 eBPF 代码的工具和框架。",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Rust",
-            "last_commit": "2023-06-30T10:23:27Z",
-            "owner": "foniod",
-            "repo": "redbpf",
-            "stars": 1723
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "bpfd",
-          "description": "运行带有 Linux 规则的 BPF 程序的框架。 容器感知。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2021-05-07T16:14:59Z",
-            "owner": "genuinetools",
-            "repo": "bpfd",
-            "stars": 483
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "adeb",
-          "description": "用于在拥有 BPFd 的 Android 上使用跟踪工具的 Linux shell 环境。",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Shell",
-            "last_commit": "2023-02-04T11:23:20Z",
-            "owner": "joelagnel",
-            "repo": "adeb",
-            "stars": 337
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "upf-bpf",
-          "description": "基于 XDP 的内核解决方案，适用于 5G UPF。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2024-09-28T13:02:41Z",
-            "owner": "navarrothiago",
-            "repo": "upf-bpf",
-            "stars": 217
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BPFd",
-          "description": "明显的 BPF 守护程序，试图利用 bcc 工具的灵活性来跟踪和调试远程目标，特别是在运行 Android 的设备上。",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "C",
-            "last_commit": "2021-10-24T19:43:20Z",
-            "owner": "joelagnel",
-            "repo": "bpfd",
-            "stars": 97
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "greggd",
-          "description": "系统守护进程，用于将 eBPF 程序编译和加载到内核中，并将程序输出转发到套接字以进行度量聚合。",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2025-03-20T15:58:35Z",
-            "owner": "olcf",
-            "repo": "greggd",
-            "stars": 6
-          }
-        }
-      ],
-      "title": "工具"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "IO Visor 的 bcc 文档",
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Tetragon",
+              "description": "面向 Kubernetes、基于 eBPF 的安全监测和运行时强制执行工具。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 473137633,
+                "language": "C",
+                "last_commit": "2026-08-19T11:28:32Z",
+                "owner": "cilium",
+                "repo": "tetragon",
+                "stars": 4933
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tracee",
+              "description": "一款用于 Linux 的运行时安全和取证工具，它使用 eBPF 技术对系统和应用程序进行跟踪，在运行时分析收集的事件以检测可疑的行为模式。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 209313689,
+                "language": "Go",
+                "last_commit": "2026-08-11T20:35:49Z",
+                "owner": "aquasecurity",
+                "repo": "tracee",
+                "stars": 4585
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sysmon for Linux",
+              "description": "一款安全监控工具。它依赖于SysinternalsEBPF。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 308092559,
+                "language": "C",
+                "last_commit": "2026-07-13T23:10:10Z",
+                "owner": "microsoft",
+                "repo": "SysmonForLinux",
+                "stars": 2152
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "bpflock - 锁定 Linux 机器",
+              "description": "一种基于 eBPF 的安全工具，用于锁定和审计 Linux 机器。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 393625888,
+                "language": "C",
+                "last_commit": "2022-02-16T21:30:06Z",
+                "owner": "linux-lock",
+                "repo": "bpflock",
+                "stars": 157
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "redcanary-ebpf-sensor",
+              "description": "一组 BPF 程序，从 Linux 内核中收集与安全相关的事件数据。BPF 程序组合成一个单独的 ELF 文件，可以根据运行的操作系统和内核版本选择性加载单个探针。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 332041938,
+                "language": "C",
+                "last_commit": "2026-06-26T22:33:14Z",
+                "owner": "redcanaryco",
+                "repo": "redcanary-ebpf-sensor",
+                "stars": 116
+              }
+            }
+          ],
           "description": null,
+          "node_type": "group",
+          "title": "安全"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "inspektor-gadget",
+              "description": "基于 eBPF 的工具集合，用于调试和检查 Kubernetes 资源和应用程序。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 181724380,
+                "language": "C",
+                "last_commit": "2026-08-19T09:01:31Z",
+                "owner": "inspektor-gadget",
+                "repo": "inspektor-gadget",
+                "stars": 2912
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kubectl trace",
+              "description": "一个用于在 Kubernetes 集群中执行 bpftrace 程序的 kubectl 插件。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158594821,
+                "language": "Go",
+                "last_commit": "2026-04-16T20:47:34Z",
+                "owner": "iovisor",
+                "repo": "kubectl-trace",
+                "stars": 2186
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "redbpf",
+              "description": "用于高效编写 Rust 中的 eBPF 代码的工具和框架。",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 150129388,
+                "language": "Rust",
+                "last_commit": "2023-06-30T10:23:27Z",
+                "owner": "foniod",
+                "repo": "redbpf",
+                "stars": 1723
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "bpfd",
+              "description": "运行带有 Linux 规则的 BPF 程序的框架。 容器感知。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 147996448,
+                "language": "Go",
+                "last_commit": "2021-05-07T16:14:59Z",
+                "owner": "genuinetools",
+                "repo": "bpfd",
+                "stars": 483
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "adeb",
+              "description": "用于在拥有 BPFd 的 Android 上使用跟踪工具的 Linux shell 环境。",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 127667454,
+                "language": "Shell",
+                "last_commit": "2023-02-04T11:23:20Z",
+                "owner": "joelagnel",
+                "repo": "adeb",
+                "stars": 337
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "upf-bpf",
+              "description": "基于 XDP 的内核解决方案，适用于 5G UPF。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 274778444,
+                "language": "C++",
+                "last_commit": "2024-09-28T13:02:41Z",
+                "owner": "navarrothiago",
+                "repo": "upf-bpf",
+                "stars": 217
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BPFd",
+              "description": "明显的 BPF 守护程序，试图利用 bcc 工具的灵活性来跟踪和调试远程目标，特别是在运行 Android 的设备上。",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 102321435,
+                "language": "C",
+                "last_commit": "2021-10-24T19:43:20Z",
+                "owner": "joelagnel",
+                "repo": "bpfd",
+                "stars": 97
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "greggd",
+              "description": "系统守护进程，用于将 eBPF 程序编译和加载到内核中，并将程序输出转发到套接字以进行度量聚合。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 267102301,
+                "language": "Go",
+                "last_commit": "2025-03-20T15:58:35Z",
+                "owner": "olcf",
+                "repo": "greggd",
+                "stars": 6
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "工具"
+        }
+      ],
+      "title": "eBPF 相关项目"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "TripleCross",
+          "description": "一个Linux eBPF rootkit，具有后门、C2、库注入、执行劫持、持久性和隐蔽性能力。",
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 421918747,
             "language": "C",
-            "last_commit": "2026-08-14T08:23:06Z",
-            "owner": "iovisor",
-            "repo": "bcc",
-            "stars": 22623
+            "last_commit": "2024-04-07T02:06:19Z",
+            "owner": "h3xduck",
+            "repo": "TripleCross",
+            "stars": 1977
           }
         },
         {
           "node_type": "item",
-          "title": "IO Visor 的 bpf-docs 仓库",
-          "description": null,
+          "title": "ebpfkit",
+          "description": "利用多种eBPF特性实施攻击性安全技术的rootkit。",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": null,
-            "last_commit": "2022-09-20T16:08:15Z",
-            "owner": "iovisor",
-            "repo": "bpf-docs",
-            "stars": 1017
+            "id": 351886433,
+            "language": "C",
+            "last_commit": "2023-02-28T16:16:20Z",
+            "owner": "Gui774ume",
+            "repo": "ebpfkit",
+            "stars": 855
           }
+        },
+        {
+          "node_type": "item",
+          "title": "Bad BPF",
+          "description": "恶意eBPF程序的集合，利用eBPF在用户模式程序和内核之间读写用户数据的能力。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 369981774,
+            "language": "C",
+            "last_commit": "2024-07-07T21:33:24Z",
+            "owner": "pathtofile",
+            "repo": "bad-bpf",
+            "stars": 696
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ebpfkit-monitor",
+          "description": "一个实用程序，可在运行时静态分析eBPF字节码或监视可疑的eBPF活动。它专为检测ebpfkit而设计。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 381632493,
+            "language": "C",
+            "last_commit": "2023-02-28T16:16:29Z",
+            "owner": "Gui774ume",
+            "repo": "ebpfkit-monitor",
+            "stars": 143
+          }
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "IO Visor 的 bcc 文档",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 34921116,
+                "language": "C",
+                "last_commit": "2026-08-14T08:23:06Z",
+                "owner": "iovisor",
+                "repo": "bcc",
+                "stars": 22626
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "IO Visor 的 bpf-docs 仓库",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 41122712,
+                "language": null,
+                "last_commit": "2022-09-20T16:08:15Z",
+                "owner": "iovisor",
+                "repo": "bpf-docs",
+                "stars": 1017
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "其他 eBPF 资源列表"
         }
       ],
-      "title": "其他 eBPF 资源列表"
-    },
-    {
-      "description": "感谢 Quentin Monnet 和 Daniel Borkmann 对深入理解 BPF：阅读材料列表的原创工作，为该列表奠定了基础。",
-      "items": [],
-      "title": "致谢"
-    },
-    {
-      "description": "欢迎贡献！首先请阅读贡献指南。",
-      "items": [],
-      "title": "贡献"
-    },
-    {
-      "description": "在法律允许的最大范围内，zoidbergwill 已放弃对此作品的所有版权和相关权利。",
-      "items": [],
-      "title": "许可证"
+      "title": "eBPF 在安全领域的应用"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T17:56:56.930Z",
+    "last_updated": "2026-08-19T12:29:55.794Z",
     "original_repository": "eunomia-bpf/awesome-ebpf-zh",
+    "original_repository_id": 619139971,
     "original_repository_sha": "8e96237ca796d9d4f052ac251c670c424567b66a",
     "enhanced_repository": "enhansome/enhansome-ebpf-zh",
     "enhanced_repository_description": null,
