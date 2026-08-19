@@ -75,7 +75,7 @@
                 "last_commit": "2023-05-08T14:59:28Z",
                 "owner": "lizrice",
                 "repo": "ebpf-beginners",
-                "stars": 1728
+                "stars": 1729
               }
             }
           ],
@@ -406,7 +406,7 @@
                 "last_commit": "2026-07-30T18:20:16Z",
                 "owner": "libbpf",
                 "repo": "libbpf",
-                "stars": 2747
+                "stars": 2748
               }
             },
             {
@@ -421,7 +421,7 @@
                 "last_commit": "2026-08-03T19:37:55Z",
                 "owner": "libbpf",
                 "repo": "libbpf-bootstrap",
-                "stars": 1519
+                "stars": 1518
               }
             }
           ],
@@ -443,7 +443,7 @@
                 "last_commit": "2026-08-18T09:42:36Z",
                 "owner": "cilium",
                 "repo": "ebpf",
-                "stars": 7916
+                "stars": 7917
               }
             },
             {
@@ -473,7 +473,7 @@
                 "last_commit": "2026-08-17T11:14:33Z",
                 "owner": "aquasecurity",
                 "repo": "libbpfgo",
-                "stars": 846
+                "stars": 845
               }
             }
           ],
@@ -492,7 +492,7 @@
                 "archived": false,
                 "id": 331227477,
                 "language": "Rust",
-                "last_commit": "2026-08-19T12:07:56Z",
+                "last_commit": "2026-08-19T17:36:10Z",
                 "owner": "aya-rs",
                 "repo": "aya",
                 "stars": 4770
@@ -532,7 +532,7 @@
                 "last_commit": "2026-06-03T21:44:37Z",
                 "owner": "qmonnet",
                 "repo": "rbpf",
-                "stars": 1124
+                "stars": 1123
               }
             },
             {
@@ -547,7 +547,7 @@
                 "last_commit": "2026-08-08T15:06:35Z",
                 "owner": "iovisor",
                 "repo": "ubpf",
-                "stars": 988
+                "stars": 987
               }
             },
             {
@@ -639,10 +639,10 @@
                 "archived": false,
                 "id": 48109239,
                 "language": "Go",
-                "last_commit": "2026-08-19T11:53:29Z",
+                "last_commit": "2026-08-19T16:49:01Z",
                 "owner": "cilium",
                 "repo": "cilium",
-                "stars": 24969
+                "stars": 24973
               }
             },
             {
@@ -850,7 +850,7 @@
                 "last_commit": "2026-08-19T11:28:32Z",
                 "owner": "cilium",
                 "repo": "tetragon",
-                "stars": 4933
+                "stars": 4935
               }
             },
             {
@@ -865,7 +865,7 @@
                 "last_commit": "2026-08-11T20:35:49Z",
                 "owner": "aquasecurity",
                 "repo": "tracee",
-                "stars": 4585
+                "stars": 4586
               }
             },
             {
@@ -929,7 +929,7 @@
                 "archived": false,
                 "id": 181724380,
                 "language": "C",
-                "last_commit": "2026-08-19T09:01:31Z",
+                "last_commit": "2026-08-19T12:35:26Z",
                 "owner": "inspektor-gadget",
                 "repo": "inspektor-gadget",
                 "stars": 2912
@@ -1153,7 +1153,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:29:55.794Z",
+    "last_updated": "2026-08-19T17:52:48.788Z",
     "original_repository": "eunomia-bpf/awesome-ebpf-zh",
     "original_repository_id": 619139971,
     "original_repository_sha": "8e96237ca796d9d4f052ac251c670c424567b66a",
