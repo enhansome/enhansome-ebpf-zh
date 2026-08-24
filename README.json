@@ -440,7 +440,7 @@
                 "archived": false,
                 "id": 206649463,
                 "language": "Go",
-                "last_commit": "2026-08-24T09:44:00Z",
+                "last_commit": "2026-08-24T15:02:23Z",
                 "owner": "cilium",
                 "repo": "ebpf",
                 "stars": 7926
@@ -492,7 +492,7 @@
                 "archived": false,
                 "id": 331227477,
                 "language": "Rust",
-                "last_commit": "2026-08-24T11:03:51Z",
+                "last_commit": "2026-08-24T16:54:17Z",
                 "owner": "aya-rs",
                 "repo": "aya",
                 "stars": 4783
@@ -677,7 +677,7 @@
                 "archived": false,
                 "id": 355718757,
                 "language": "C",
-                "last_commit": "2026-08-22T01:25:41Z",
+                "last_commit": "2026-08-24T17:44:17Z",
                 "owner": "microsoft",
                 "repo": "ebpf-for-windows",
                 "stars": 3549
@@ -727,7 +727,7 @@
                 "archived": false,
                 "id": 48109239,
                 "language": "Go",
-                "last_commit": "2026-08-24T14:38:40Z",
+                "last_commit": "2026-08-24T16:51:12Z",
                 "owner": "cilium",
                 "repo": "cilium",
                 "stars": 25003
@@ -838,10 +838,10 @@
                 "archived": false,
                 "id": 222612062,
                 "language": "Makefile",
-                "last_commit": "2026-08-23T14:10:34Z",
+                "last_commit": "2026-08-24T16:05:55Z",
                 "owner": "cilium",
                 "repo": "hubble",
-                "stars": 4312
+                "stars": 4313
               }
             },
             {
@@ -883,7 +883,7 @@
                 "archived": false,
                 "id": 364992209,
                 "language": "Go",
-                "last_commit": "2026-08-21T15:56:10Z",
+                "last_commit": "2026-08-24T15:36:04Z",
                 "owner": "parca-dev",
                 "repo": "parca-agent",
                 "stars": 743
@@ -935,10 +935,10 @@
                 "archived": false,
                 "id": 473137633,
                 "language": "C",
-                "last_commit": "2026-08-24T14:39:37Z",
+                "last_commit": "2026-08-24T17:51:19Z",
                 "owner": "cilium",
                 "repo": "tetragon",
-                "stars": 4945
+                "stars": 4947
               }
             },
             {
@@ -1263,7 +1263,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:40:37.916Z",
+    "last_updated": "2026-08-24T18:00:53.605Z",
     "original_repository": "eunomia-bpf/awesome-ebpf-zh",
     "original_repository_id": 619139971,
     "original_repository_sha": "8e96237ca796d9d4f052ac251c670c424567b66a",
