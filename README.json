@@ -17,7 +17,7 @@
                 "last_commit": "2026-08-20T11:41:12Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22632
+                "stars": 22633
               }
             },
             {
@@ -60,7 +60,7 @@
                 "last_commit": "2026-08-20T11:41:12Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22632
+                "stars": 22633
               }
             },
             {
@@ -175,7 +175,7 @@
             "last_commit": "2026-08-20T11:41:12Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22632
+            "stars": 22633
           }
         },
         {
@@ -190,7 +190,7 @@
             "last_commit": "2026-08-20T11:41:12Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22632
+            "stars": 22633
           }
         },
         {
@@ -205,7 +205,7 @@
             "last_commit": "2026-05-08T20:13:46Z",
             "owner": "xdp-project",
             "repo": "xdp-tutorial",
-            "stars": 2961
+            "stars": 2962
           }
         },
         {
@@ -241,7 +241,7 @@
             "last_commit": "2026-08-20T11:41:12Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22632
+            "stars": 22633
           }
         },
         {
@@ -256,7 +256,7 @@
             "last_commit": "2026-08-20T11:41:12Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22632
+            "stars": 22633
           }
         },
         {
@@ -369,7 +369,7 @@
                 "last_commit": "2026-08-20T11:41:12Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22632
+                "stars": 22633
               }
             },
             {
@@ -384,7 +384,7 @@
                 "last_commit": "2026-08-20T11:41:12Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22632
+                "stars": 22633
               }
             }
           ],
@@ -406,7 +406,7 @@
                 "last_commit": "2026-07-30T18:20:16Z",
                 "owner": "libbpf",
                 "repo": "libbpf",
-                "stars": 2749
+                "stars": 2750
               }
             },
             {
@@ -440,10 +440,10 @@
                 "archived": false,
                 "id": 206649463,
                 "language": "Go",
-                "last_commit": "2026-08-24T15:02:23Z",
+                "last_commit": "2026-08-25T06:17:10Z",
                 "owner": "cilium",
                 "repo": "ebpf",
-                "stars": 7926
+                "stars": 7929
               }
             },
             {
@@ -492,7 +492,7 @@
                 "archived": false,
                 "id": 331227477,
                 "language": "Rust",
-                "last_commit": "2026-08-24T16:54:17Z",
+                "last_commit": "2026-08-25T04:49:53Z",
                 "owner": "aya-rs",
                 "repo": "aya",
                 "stars": 4783
@@ -507,7 +507,7 @@
                 "archived": false,
                 "id": 392741237,
                 "language": "Rust",
-                "last_commit": "2026-08-15T20:32:08Z",
+                "last_commit": "2026-08-24T22:33:01Z",
                 "owner": "aya-rs",
                 "repo": "aya-template",
                 "stars": 140
@@ -677,10 +677,10 @@
                 "archived": false,
                 "id": 355718757,
                 "language": "C",
-                "last_commit": "2026-08-24T17:44:17Z",
+                "last_commit": "2026-08-24T19:09:28Z",
                 "owner": "microsoft",
                 "repo": "ebpf-for-windows",
-                "stars": 3549
+                "stars": 3551
               }
             }
           ],
@@ -727,10 +727,10 @@
                 "archived": false,
                 "id": 48109239,
                 "language": "Go",
-                "last_commit": "2026-08-24T16:51:12Z",
+                "last_commit": "2026-08-24T23:35:21Z",
                 "owner": "cilium",
                 "repo": "cilium",
-                "stars": 25003
+                "stars": 25004
               }
             },
             {
@@ -765,7 +765,7 @@
                     "last_commit": "2026-08-20T11:41:12Z",
                     "owner": "iovisor",
                     "repo": "bcc",
-                    "stars": 22632
+                    "stars": 22633
                   }
                 },
                 {
@@ -841,7 +841,7 @@
                 "last_commit": "2026-08-24T16:05:55Z",
                 "owner": "cilium",
                 "repo": "hubble",
-                "stars": 4313
+                "stars": 4314
               }
             },
             {
@@ -883,7 +883,7 @@
                 "archived": false,
                 "id": 364992209,
                 "language": "Go",
-                "last_commit": "2026-08-24T15:36:04Z",
+                "last_commit": "2026-08-24T20:13:24Z",
                 "owner": "parca-dev",
                 "repo": "parca-agent",
                 "stars": 743
@@ -935,10 +935,10 @@
                 "archived": false,
                 "id": 473137633,
                 "language": "C",
-                "last_commit": "2026-08-24T17:51:19Z",
+                "last_commit": "2026-08-25T06:20:36Z",
                 "owner": "cilium",
                 "repo": "tetragon",
-                "stars": 4947
+                "stars": 4949
               }
             },
             {
@@ -968,7 +968,7 @@
                 "last_commit": "2026-07-13T23:10:10Z",
                 "owner": "microsoft",
                 "repo": "SysmonForLinux",
-                "stars": 2152
+                "stars": 2153
               }
             },
             {
@@ -1017,7 +1017,7 @@
                 "archived": false,
                 "id": 181724380,
                 "language": "C",
-                "last_commit": "2026-08-24T13:43:01Z",
+                "last_commit": "2026-08-25T03:05:49Z",
                 "owner": "inspektor-gadget",
                 "repo": "inspektor-gadget",
                 "stars": 2913
@@ -1235,7 +1235,7 @@
                 "last_commit": "2026-08-20T11:41:12Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22632
+                "stars": 22633
               }
             },
             {
@@ -1263,7 +1263,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T18:00:53.605Z",
+    "last_updated": "2026-08-25T06:29:09.492Z",
     "original_repository": "eunomia-bpf/awesome-ebpf-zh",
     "original_repository_id": 619139971,
     "original_repository_sha": "8e96237ca796d9d4f052ac251c670c424567b66a",
