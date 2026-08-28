@@ -17,7 +17,7 @@
                 "last_commit": "2026-08-27T11:24:41Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22640
+                "stars": 22641
               }
             },
             {
@@ -60,7 +60,7 @@
                 "last_commit": "2026-08-27T11:24:41Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22640
+                "stars": 22641
               }
             },
             {
@@ -175,7 +175,7 @@
             "last_commit": "2026-08-27T11:24:41Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22640
+            "stars": 22641
           }
         },
         {
@@ -190,7 +190,7 @@
             "last_commit": "2026-08-27T11:24:41Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22640
+            "stars": 22641
           }
         },
         {
@@ -220,7 +220,7 @@
             "last_commit": "2020-06-19T09:20:08Z",
             "owner": "goldshtn",
             "repo": "linux-tracing-workshop",
-            "stars": 1321
+            "stars": 1322
           }
         }
       ],
@@ -241,7 +241,7 @@
             "last_commit": "2026-08-27T11:24:41Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22640
+            "stars": 22641
           }
         },
         {
@@ -256,7 +256,7 @@
             "last_commit": "2026-08-27T11:24:41Z",
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22640
+            "stars": 22641
           }
         },
         {
@@ -369,7 +369,7 @@
                 "last_commit": "2026-08-27T11:24:41Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22640
+                "stars": 22641
               }
             },
             {
@@ -384,7 +384,7 @@
                 "last_commit": "2026-08-27T11:24:41Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22640
+                "stars": 22641
               }
             }
           ],
@@ -443,7 +443,7 @@
                 "last_commit": "2026-08-25T08:12:36Z",
                 "owner": "cilium",
                 "repo": "ebpf",
-                "stars": 7933
+                "stars": 7934
               }
             },
             {
@@ -492,7 +492,7 @@
                 "archived": false,
                 "id": 331227477,
                 "language": "Rust",
-                "last_commit": "2026-08-27T10:37:13Z",
+                "last_commit": "2026-08-27T21:24:03Z",
                 "owner": "aya-rs",
                 "repo": "aya",
                 "stars": 4785
@@ -727,10 +727,10 @@
                 "archived": false,
                 "id": 48109239,
                 "language": "Go",
-                "last_commit": "2026-08-27T10:43:48Z",
+                "last_commit": "2026-08-27T22:18:37Z",
                 "owner": "cilium",
                 "repo": "cilium",
-                "stars": 25017
+                "stars": 25018
               }
             },
             {
@@ -765,7 +765,7 @@
                     "last_commit": "2026-08-27T11:24:41Z",
                     "owner": "iovisor",
                     "repo": "bcc",
-                    "stars": 22640
+                    "stars": 22641
                   }
                 },
                 {
@@ -780,7 +780,7 @@
                     "last_commit": "2026-08-24T03:08:51Z",
                     "owner": "p4lang",
                     "repo": "p4c",
-                    "stars": 835
+                    "stars": 836
                   }
                 }
               ]
@@ -935,10 +935,10 @@
                 "archived": false,
                 "id": 473137633,
                 "language": "C",
-                "last_commit": "2026-08-27T11:23:34Z",
+                "last_commit": "2026-08-27T20:59:04Z",
                 "owner": "cilium",
                 "repo": "tetragon",
-                "stars": 4955
+                "stars": 4957
               }
             },
             {
@@ -1017,7 +1017,7 @@
                 "archived": false,
                 "id": 181724380,
                 "language": "C",
-                "last_commit": "2026-08-27T10:26:14Z",
+                "last_commit": "2026-08-27T15:32:39Z",
                 "owner": "inspektor-gadget",
                 "repo": "inspektor-gadget",
                 "stars": 2913
@@ -1235,7 +1235,7 @@
                 "last_commit": "2026-08-27T11:24:41Z",
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22640
+                "stars": 22641
               }
             },
             {
@@ -1263,7 +1263,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:37:10.903Z",
+    "last_updated": "2026-08-28T01:37:12.585Z",
     "original_repository_info": {
       "archived": false,
       "id": 619139971,
