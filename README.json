@@ -12,12 +12,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+                "homepage": null,
                 "id": 34921116,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T11:24:41Z",
+                "open_issues": 1072,
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22645
+                "stars": 22644,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -28,12 +33,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Presentations and docs",
+                "homepage": null,
                 "id": 41122712,
                 "language": null,
+                "license": null,
                 "last_commit": "2022-09-20T16:08:15Z",
+                "open_issues": 3,
                 "owner": "iovisor",
                 "repo": "bpf-docs",
-                "stars": 1017
+                "stars": 1017,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -57,12 +67,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+                "homepage": null,
                 "id": 34921116,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T11:24:41Z",
+                "open_issues": 1072,
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22645
+                "stars": 22644,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -73,12 +88,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The beginner's guide to eBPF",
+                "homepage": null,
                 "id": 307367546,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2023-05-08T14:59:28Z",
+                "open_issues": 3,
                 "owner": "lizrice",
                 "repo": "ebpf-beginners",
-                "stars": 1730
+                "stars": 1730,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -96,12 +116,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Presentations and docs",
+                "homepage": null,
                 "id": 41122712,
                 "language": null,
+                "license": null,
                 "last_commit": "2022-09-20T16:08:15Z",
+                "open_issues": 3,
                 "owner": "iovisor",
                 "repo": "bpf-docs",
-                "stars": 1017
+                "stars": 1017,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -112,12 +137,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Source text and experimental data for our paper describing XDP",
+                "homepage": null,
                 "id": 149286664,
                 "language": "CSS",
+                "license": null,
                 "last_commit": "2021-01-15T16:28:13Z",
+                "open_issues": 2,
                 "owner": "tohojo",
                 "repo": "xdp-paper",
-                "stars": 154
+                "stars": 154,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -135,12 +165,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "hBPF = eBPF in hardware",
+                "homepage": null,
                 "id": 354273285,
                 "language": "Python",
+                "license": "BSD-3-Clause",
                 "last_commit": "2023-01-27T12:01:25Z",
+                "open_issues": 0,
                 "owner": "rprinz08",
                 "repo": "hBPF",
-                "stars": 434
+                "stars": 434,
+                "topics": [
+                  "ebpf",
+                  "fpga",
+                  "litex",
+                  "migen",
+                  "python3"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -151,12 +192,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenCSD: eBPF Computational Storage Device (CSD) for Zoned Namespace (ZNS) SSDs in QEMU",
+                "homepage": null,
                 "id": 335318237,
                 "language": "C++",
+                "license": "MIT",
                 "last_commit": "2023-11-01T06:40:09Z",
+                "open_issues": 0,
                 "owner": "Dantali0n",
                 "repo": "OpenCSD",
-                "stars": 69
+                "stars": 69,
+                "topics": [
+                  "bpf",
+                  "computational-storage-device",
+                  "csd",
+                  "ebpf",
+                  "flufflefs",
+                  "nvme",
+                  "opencsd",
+                  "qemu",
+                  "zcsd",
+                  "zns",
+                  "zoned-namespace"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -178,12 +236,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+            "homepage": null,
             "id": 34921116,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T11:24:41Z",
+            "open_issues": 1072,
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22645
+            "stars": 22644,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -194,12 +257,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+            "homepage": null,
             "id": 34921116,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T11:24:41Z",
+            "open_issues": 1072,
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22645
+            "stars": 22644,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -210,12 +278,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "XDP tutorial",
+            "homepage": null,
             "id": 172523426,
             "language": "C",
+            "license": null,
             "last_commit": "2026-05-08T20:13:46Z",
+            "open_issues": 170,
             "owner": "xdp-project",
             "repo": "xdp-tutorial",
-            "stars": 2963
+            "stars": 2963,
+            "topics": [
+              "bpf",
+              "libbpf",
+              "tutorial",
+              "xdp"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -226,12 +304,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Examples and hands-on labs for Linux tracing tools workshops",
+            "homepage": null,
             "id": 61016178,
             "language": "HTML",
+            "license": "MIT",
             "last_commit": "2020-06-19T09:20:08Z",
+            "open_issues": 7,
             "owner": "goldshtn",
             "repo": "linux-tracing-workshop",
-            "stars": 1322
+            "stars": 1322,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         }
@@ -248,12 +331,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+            "homepage": null,
             "id": 34921116,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T11:24:41Z",
+            "open_issues": 1072,
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22645
+            "stars": 22644,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -264,12 +352,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+            "homepage": null,
             "id": 34921116,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T11:24:41Z",
+            "open_issues": 1072,
             "owner": "iovisor",
             "repo": "bcc",
-            "stars": 22645
+            "stars": 22644,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -280,12 +373,22 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Rust library for building and running BPF/eBPF modules",
+            "homepage": null,
             "id": 150129388,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2023-06-30T10:23:27Z",
+            "open_issues": 63,
             "owner": "foniod",
             "repo": "redbpf",
-            "stars": 1721
+            "stars": 1721,
+            "topics": [
+              "ebpf",
+              "ffi-bindings",
+              "rust-ffi",
+              "rust-library"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -296,12 +399,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Prototyping kernel development work outside mainline",
+            "homepage": null,
             "id": 25579442,
             "language": "C",
+            "license": "GPL-2.0",
             "last_commit": "2025-01-16T18:31:50Z",
+            "open_issues": 13,
             "owner": "netoptimizer",
             "repo": "prototype-kernel",
-            "stars": 316
+            "stars": 316,
+            "topics": [
+              "ebpf-programs",
+              "kernel",
+              "kernel-modules",
+              "linux-kernel",
+              "xdp"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -312,12 +426,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sample BPF offload apps.",
+            "homepage": null,
             "id": 142334165,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2020-04-06T16:23:50Z",
+            "open_issues": 6,
             "owner": "Netronome",
             "repo": "bpf-samples",
-            "stars": 107
+            "stars": 107,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -328,12 +447,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sample ebpf programs to analyze",
+            "homepage": null,
             "id": 162130996,
             "language": "C",
+            "license": null,
             "last_commit": "2026-07-03T09:38:05Z",
+            "open_issues": 0,
             "owner": "vbpf",
             "repo": "ebpf-samples",
-            "stars": 93
+            "stars": 93,
+            "topics": [
+              "ebpf",
+              "ebpf-opcode",
+              "ebpf-programs"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -344,12 +472,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sample project demonstrating how to use eBPF to encap/decap packets with an MPLS label.",
+            "homepage": null,
             "id": 165128326,
             "language": "C",
+            "license": "GPL-3.0",
             "last_commit": "2019-10-18T22:00:44Z",
+            "open_issues": 0,
             "owner": "fzakaria",
             "repo": "ebpf-mpls-encap-decap",
-            "stars": 57
+            "stars": 57,
+            "topics": [
+              "bpf",
+              "bpfilter",
+              "ebpf",
+              "ebpf-programs",
+              "linux",
+              "linux-kernel-hacking"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -360,12 +500,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An example of an eBPF program hooking into the kill tracepoint",
+            "homepage": null,
             "id": 320541103,
             "language": "C",
+            "license": "GPL-3.0",
             "last_commit": "2026-07-13T06:51:30Z",
+            "open_issues": 1,
             "owner": "niclashedam",
             "repo": "ebpf-kill-example",
-            "stars": 23
+            "stars": 23,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         }
@@ -384,12 +529,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+                "homepage": null,
                 "id": 34921116,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T11:24:41Z",
+                "open_issues": 1072,
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22645
+                "stars": 22644,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -400,12 +550,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+                "homepage": null,
                 "id": 34921116,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T11:24:41Z",
+                "open_issues": 1072,
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22645
+                "stars": 22644,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -423,12 +578,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Automated upstream mirror for libbpf stand-alone build.",
+                "homepage": null,
                 "id": 152338895,
                 "language": "C",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-30T18:20:16Z",
+                "open_issues": 35,
                 "owner": "libbpf",
                 "repo": "libbpf",
-                "stars": 2751
+                "stars": 2751,
+                "topics": [
+                  "bpf",
+                  "libbpf",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -439,12 +603,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Scaffolding for BPF application development with libbpf and BPF CO-RE",
+                "homepage": null,
                 "id": 303065613,
                 "language": "CMake",
+                "license": "BSD-3-Clause",
                 "last_commit": "2026-08-25T20:14:00Z",
+                "open_issues": 17,
                 "owner": "libbpf",
                 "repo": "libbpf-bootstrap",
-                "stars": 1519
+                "stars": 1519,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -462,12 +631,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.",
+                "homepage": "https://ebpf-go.dev",
                 "id": 206649463,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-25T08:12:36Z",
+                "open_issues": 26,
                 "owner": "cilium",
                 "repo": "ebpf",
-                "stars": 7934
+                "stars": 7934,
+                "topics": [
+                  "btf",
+                  "ebpf",
+                  "go",
+                  "golang",
+                  "linux"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -478,12 +658,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Go bindings for creating BPF programs.",
+                "homepage": null,
                 "id": 74155923,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2023-08-31T05:47:21Z",
+                "open_issues": 84,
                 "owner": "iovisor",
                 "repo": "gobpf",
-                "stars": 2180
+                "stars": 2180,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -494,12 +679,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "eBPF library for Go. Powered by libbpf.",
+                "homepage": null,
                 "id": 366477581,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-25T14:57:11Z",
+                "open_issues": 34,
                 "owner": "aquasecurity",
                 "repo": "libbpfgo",
-                "stars": 848
+                "stars": 848,
+                "topics": [
+                  "bpf",
+                  "ebpf",
+                  "go",
+                  "golang",
+                  "linux"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -517,12 +713,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Aya is an eBPF library for the Rust programming language, built with a focus on developer experience and operability.",
+                "homepage": "https://aya-rs.dev/book/",
                 "id": 331227477,
                 "language": "Rust",
-                "last_commit": "2026-08-28T15:38:16Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:47:38Z",
+                "open_issues": 207,
                 "owner": "aya-rs",
                 "repo": "aya",
-                "stars": 4786
+                "stars": 4786,
+                "topics": [
+                  "bpf",
+                  "ebpf",
+                  "observability",
+                  "rust",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -533,12 +740,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A cargo-generate template for Rust eBPF Projects using Aya",
+                "homepage": null,
                 "id": 392741237,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-24T22:33:01Z",
+                "open_issues": 6,
                 "owner": "aya-rs",
                 "repo": "aya-template",
-                "stars": 140
+                "stars": 140,
+                "topics": [
+                  "cargo-generate",
+                  "ebpf",
+                  "rust"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -556,12 +772,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Writing eBPF in Zig",
+                "homepage": "https://tw4452852.github.io/zbpf/",
                 "id": 626195411,
                 "language": "Zig",
+                "license": "GPL-3.0",
                 "last_commit": "2026-04-19T06:39:21Z",
+                "open_issues": 5,
                 "owner": "tw4452852",
                 "repo": "zbpf",
-                "stars": 277
+                "stars": 277,
+                "topics": [
+                  "bpf",
+                  "ebpf",
+                  "tracing",
+                  "zig"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -579,12 +805,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Tool to make Build and Run eBPF programs easier",
+                "homepage": "https://eunomia.dev/eunomia-bpf/introduction/",
                 "id": 526942698,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-08-09T07:40:55Z",
+                "open_issues": 15,
                 "owner": "eunomia-bpf",
                 "repo": "eunomia-bpf",
-                "stars": 897
+                "stars": 898,
+                "topics": [
+                  "bcc",
+                  "ebpf",
+                  "ebpf-co-re",
+                  "function-as-a-service",
+                  "libbpf",
+                  "linux",
+                  "oci",
+                  "oci-image",
+                  "oras",
+                  "riscv",
+                  "wasm",
+                  "webassembly"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -602,12 +846,20 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A Rust library for managing eBPF programs.",
+                "homepage": "https://crates.io/crates/oxidebpf",
                 "id": 369593882,
                 "language": "Rust",
+                "license": "BSD-3-Clause",
                 "last_commit": "2024-02-26T16:51:20Z",
+                "open_issues": 0,
                 "owner": "redcanaryco",
                 "repo": "oxidebpf",
-                "stars": 123
+                "stars": 123,
+                "topics": [
+                  "ebpf",
+                  "rust-crate"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -625,12 +877,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Rust virtual machine and JIT compiler for eBPF programs",
+                "homepage": null,
                 "id": 78370639,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-06-03T21:44:37Z",
+                "open_issues": 17,
                 "owner": "qmonnet",
                 "repo": "rbpf",
-                "stars": 1125
+                "stars": 1125,
+                "topics": [
+                  "assembler",
+                  "bpf",
+                  "ebpf",
+                  "ebpf-programs",
+                  "interpreter",
+                  "jit-compiler",
+                  "packet-filtering",
+                  "rust"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -641,12 +907,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Userspace eBPF VM",
+                "homepage": null,
                 "id": 42490910,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-08T15:06:35Z",
+                "open_issues": 18,
                 "owner": "iovisor",
                 "repo": "ubpf",
-                "stars": 986
+                "stars": 986,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -657,12 +928,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "eBPF verifier based on abstract interpretation",
+                "homepage": null,
                 "id": 137548993,
                 "language": "C++",
+                "license": "MIT",
                 "last_commit": "2026-08-22T17:58:05Z",
+                "open_issues": 41,
                 "owner": "vbpf",
                 "repo": "prevail",
-                "stars": 467
+                "stars": 467,
+                "topics": [
+                  "abstract-interpretation",
+                  "ebpf",
+                  "ebpf-verifier",
+                  "static-analyzer"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -673,12 +954,26 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Trace Go program execution with uprobes and eBPF",
+                "homepage": null,
                 "id": 232918063,
                 "language": "Go",
+                "license": "MPL-2.0",
                 "last_commit": "2025-03-13T15:31:35Z",
+                "open_issues": 20,
                 "owner": "grantseltzer",
                 "repo": "weaver",
-                "stars": 304
+                "stars": 304,
+                "topics": [
+                  "bcc",
+                  "ebpf",
+                  "go",
+                  "golang",
+                  "linux",
+                  "trace",
+                  "tracing",
+                  "weaver"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -689,12 +984,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Generic eBPF runtime",
+                "homepage": null,
                 "id": 99342233,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2021-05-28T09:29:01Z",
+                "open_issues": 2,
                 "owner": "generic-ebpf",
                 "repo": "generic-ebpf",
-                "stars": 154
+                "stars": 154,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -712,12 +1012,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "eBPF implementation that runs on top of Windows",
+                "homepage": null,
                 "id": 355718757,
                 "language": "C",
-                "last_commit": "2026-08-29T00:45:37Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T04:49:51Z",
+                "open_issues": 328,
                 "owner": "microsoft",
                 "repo": "ebpf-for-windows",
-                "stars": 3554
+                "stars": 3555,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -735,12 +1040,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 56827945,
                 "language": "Makefile",
+                "license": null,
                 "last_commit": "2020-07-23T21:28:01Z",
+                "open_issues": 4,
                 "owner": "zlim",
                 "repo": "bcc-docker",
-                "stars": 45
+                "stars": 45,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -764,12 +1074,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "eBPF-based Networking, Security, and Observability",
+                "homepage": "https://cilium.io",
                 "id": 48109239,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T22:19:44Z",
+                "open_issues": 1085,
                 "owner": "cilium",
                 "repo": "cilium",
-                "stars": 25021
+                "stars": 25022,
+                "topics": [
+                  "bpf",
+                  "cncf",
+                  "cni",
+                  "containers",
+                  "ebpf",
+                  "k8s",
+                  "kernel",
+                  "kubernetes",
+                  "kubernetes-networking",
+                  "loadbalancing",
+                  "monitoring",
+                  "networking",
+                  "observability",
+                  "security",
+                  "troubleshooting",
+                  "xdp"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -780,12 +1112,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Use eBPF to speed up your Service Mesh like crossing an Einstein-Rosen Bridge.",
+                "homepage": "https://merbridge.io",
                 "id": 447051452,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-05-19T17:46:13Z",
+                "open_issues": 36,
                 "owner": "merbridge",
                 "repo": "merbridge",
-                "stars": 808
+                "stars": 808,
+                "topics": [
+                  "ebpf",
+                  "istio",
+                  "kubernetes",
+                  "kuma",
+                  "linkerd2",
+                  "mesh",
+                  "osm",
+                  "service-mesh"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -801,12 +1147,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+                    "homepage": null,
                     "id": 34921116,
                     "language": "C",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-08-27T11:24:41Z",
+                    "open_issues": 1072,
                     "owner": "iovisor",
                     "repo": "bcc",
-                    "stars": 22645
+                    "stars": 22644,
+                    "topics": []
                   },
                   "first_seen": "2026-08-29T01:07:53.435Z"
                 },
@@ -817,12 +1168,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "P4_16 reference compiler",
+                    "homepage": "https://p4.org/",
                     "id": 55433859,
                     "language": "C++",
+                    "license": null,
                     "last_commit": "2026-08-24T03:08:51Z",
+                    "open_issues": 470,
                     "owner": "p4lang",
                     "repo": "p4c",
-                    "stars": 836
+                    "stars": 836,
+                    "topics": [
+                      "p4",
+                      "p4c",
+                      "p4lang",
+                      "p4language"
+                    ]
                   },
                   "first_seen": "2026-08-29T01:07:53.435Z"
                 }
@@ -840,12 +1201,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": " Suricata Extreme Performance Tuning guide - Mark II",
+                    "homepage": null,
                     "id": 124362164,
                     "language": "Makefile",
+                    "license": "GPL-2.0",
                     "last_commit": "2018-04-17T12:55:25Z",
+                    "open_issues": 2,
                     "owner": "pevma",
                     "repo": "SEPTun-Mark-II",
-                    "stars": 121
+                    "stars": 121,
+                    "topics": []
                   },
                   "first_seen": "2026-08-29T01:07:53.435Z"
                 }
@@ -865,12 +1231,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Instant Kubernetes-Native Application Observability",
+                "homepage": "https://px.dev",
                 "id": 243394576,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-30T23:00:42Z",
+                "open_issues": 395,
                 "owner": "pixie-io",
                 "repo": "pixie",
-                "stars": 6522
+                "stars": 6524,
+                "topics": [
+                  "aks",
+                  "apache-arrow",
+                  "cloud-native",
+                  "cncf",
+                  "distributed-systems",
+                  "ebpf",
+                  "eks",
+                  "gke",
+                  "golang",
+                  "kubernetes",
+                  "machine-learning",
+                  "metrics",
+                  "minikube",
+                  "monitoring",
+                  "observability",
+                  "pandas",
+                  "pixie",
+                  "px",
+                  "px-run",
+                  "vega"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -881,12 +1273,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Hubble - Network, Service & Security Observability for Kubernetes using eBPF",
+                "homepage": null,
                 "id": 222612062,
                 "language": "Makefile",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-24T16:05:55Z",
+                "open_issues": 44,
                 "owner": "cilium",
                 "repo": "hubble",
-                "stars": 4315
+                "stars": 4315,
+                "topics": [
+                  "cilium",
+                  "ebpf",
+                  "kubernetes",
+                  "metrics",
+                  "networking",
+                  "observability",
+                  "security",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -897,12 +1303,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Instant K8s service dependency map, right to your Grafana.",
+                "homepage": null,
                 "id": 568919373,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-03-17T13:28:09Z",
+                "open_issues": 18,
                 "owner": "groundcover-com",
                 "repo": "caretta",
-                "stars": 2056
+                "stars": 2056,
+                "topics": [
+                  "ebpf",
+                  "kubernetes",
+                  "observability"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -913,12 +1328,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Presentations and docs",
+                "homepage": null,
                 "id": 41122712,
                 "language": null,
+                "license": null,
                 "last_commit": "2022-09-20T16:08:15Z",
+                "open_issues": 3,
                 "owner": "iovisor",
                 "repo": "bpf-docs",
-                "stars": 1017
+                "stars": 1017,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -929,12 +1349,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "eBPF based always-on CPU/GPU profiler auto-discovering targets in Kubernetes and systemd, zero code changes or restarts needed!",
+                "homepage": "https://parca.dev/",
                 "id": 364992209,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T15:46:20Z",
+                "open_issues": 179,
                 "owner": "parca-dev",
                 "repo": "parca-agent",
-                "stars": 743
+                "stars": 743,
+                "topics": [
+                  "c",
+                  "continuous-profiling",
+                  "cpp",
+                  "cuda",
+                  "ebpf",
+                  "ebpf-programs",
+                  "go",
+                  "golang",
+                  "gpu",
+                  "kubernetes",
+                  "linux",
+                  "nvidia",
+                  "observability",
+                  "performance",
+                  "pprof",
+                  "profiling",
+                  "python",
+                  "ruby",
+                  "rust",
+                  "systemd"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -945,12 +1391,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Monitor and profiler powered by eBPF to monitor network traffic, and diagnose CPU and network performance.",
+                "homepage": "https://skywalking.apache.org/",
                 "id": 460670096,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T08:07:10Z",
+                "open_issues": 3,
                 "owner": "apache",
                 "repo": "skywalking-rover",
-                "stars": 237
+                "stars": 237,
+                "topics": [
+                  "apm",
+                  "ebpf",
+                  "network",
+                  "observability",
+                  "profile",
+                  "service-mesh",
+                  "skywalking"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -961,12 +1420,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Low-overhead sampling profiler and tracer for Ruby for Linux",
+                "homepage": null,
                 "id": 510016042,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2024-04-21T14:15:13Z",
+                "open_issues": 8,
                 "owner": "javierhonduco",
                 "repo": "rbperf",
-                "stars": 124
+                "stars": 124,
+                "topics": [
+                  "bpf",
+                  "flamegraph",
+                  "performance",
+                  "profilers",
+                  "ruby",
+                  "tracer"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -984,12 +1455,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "eBPF-based Security Observability and Runtime Enforcement",
+                "homepage": "https://tetragon.io",
                 "id": 473137633,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T23:35:57Z",
+                "open_issues": 267,
                 "owner": "cilium",
                 "repo": "tetragon",
-                "stars": 4959
+                "stars": 4960,
+                "topics": [
+                  "bpf",
+                  "ebpf",
+                  "kernel",
+                  "kubernetes",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1000,12 +1482,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Linux Runtime Security and Forensics using eBPF",
+                "homepage": "https://aquasecurity.github.io/tracee/latest",
                 "id": 209313689,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-11T20:35:49Z",
+                "open_issues": 121,
                 "owner": "aquasecurity",
                 "repo": "tracee",
-                "stars": 4594
+                "stars": 4594,
+                "topics": [
+                  "bpf",
+                  "docker",
+                  "ebpf",
+                  "golang",
+                  "kubernetes",
+                  "linux",
+                  "runtime-security",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1016,12 +1512,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Sysmon for Linux",
+                "homepage": null,
                 "id": 308092559,
                 "language": "C",
+                "license": "MIT",
                 "last_commit": "2026-07-13T23:10:10Z",
+                "open_issues": 42,
                 "owner": "microsoft",
                 "repo": "SysmonForLinux",
-                "stars": 2153
+                "stars": 2153,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1032,12 +1533,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "bpflock - eBPF driven security for locking and auditing Linux machines",
+                "homepage": null,
                 "id": 393625888,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2022-02-16T21:30:06Z",
+                "open_issues": 3,
                 "owner": "linux-lock",
                 "repo": "bpflock",
-                "stars": 157
+                "stars": 157,
+                "topics": [
+                  "bpf",
+                  "containers",
+                  "ebpf",
+                  "iot",
+                  "iot-security",
+                  "kernel",
+                  "kubernetes",
+                  "lsm",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1048,12 +1564,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Red Canary's eBPF Sensor",
+                "homepage": null,
                 "id": 332041938,
                 "language": "C",
+                "license": "GPL-2.0",
                 "last_commit": "2026-06-26T22:33:14Z",
+                "open_issues": 0,
                 "owner": "redcanaryco",
                 "repo": "redcanary-ebpf-sensor",
-                "stars": 116
+                "stars": 116,
+                "topics": [
+                  "ebpf",
+                  "edr-solutions",
+                  "sensor"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -1071,12 +1596,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Inspektor Gadget is a set of tools and framework for data collection and system inspection on Kubernetes clusters and Linux hosts using eBPF",
+                "homepage": "https://www.inspektor-gadget.io",
                 "id": 181724380,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T03:04:56Z",
+                "open_issues": 429,
                 "owner": "inspektor-gadget",
                 "repo": "inspektor-gadget",
-                "stars": 2914
+                "stars": 2914,
+                "topics": [
+                  "bpf",
+                  "bpf-programs",
+                  "cncf-project",
+                  "ebpf",
+                  "ebpf-programs",
+                  "inspektor-gadget",
+                  "kinvolk",
+                  "kubernetes",
+                  "prometheus-exporter",
+                  "prometheus-metrics"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1087,12 +1628,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Schedule bpftrace programs on your kubernetes cluster using the kubectl",
+                "homepage": null,
                 "id": 158594821,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-04-16T20:47:34Z",
+                "open_issues": 49,
                 "owner": "iovisor",
                 "repo": "kubectl-trace",
-                "stars": 2186
+                "stars": 2186,
+                "topics": [
+                  "bpf",
+                  "bpftrace",
+                  "ebpf",
+                  "ebpf-programs",
+                  "kubectl",
+                  "kubectl-plugin",
+                  "kubectl-plugins",
+                  "kubectl-trace",
+                  "kubernetes-cluster",
+                  "trace",
+                  "tracepoints"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1103,12 +1661,22 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Rust library for building and running BPF/eBPF modules",
+                "homepage": null,
                 "id": 150129388,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2023-06-30T10:23:27Z",
+                "open_issues": 63,
                 "owner": "foniod",
                 "repo": "redbpf",
-                "stars": 1721
+                "stars": 1721,
+                "topics": [
+                  "ebpf",
+                  "ffi-bindings",
+                  "rust-ffi",
+                  "rust-library"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1119,12 +1687,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Framework for running BPF programs with rules on Linux as a daemon. Container aware.",
+                "homepage": null,
                 "id": 147996448,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2021-05-07T16:14:59Z",
+                "open_issues": 5,
                 "owner": "genuinetools",
                 "repo": "bpfd",
-                "stars": 483
+                "stars": 483,
+                "topics": [
+                  "bpf",
+                  "cli",
+                  "containers",
+                  "docker",
+                  "ebpf",
+                  "kernel",
+                  "linux",
+                  "security",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1135,12 +1718,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A debian-based shell environment designed for Android and adb",
+                "homepage": null,
                 "id": 127667454,
                 "language": "Shell",
+                "license": "Apache-2.0",
                 "last_commit": "2023-02-04T11:23:20Z",
+                "open_issues": 19,
                 "owner": "joelagnel",
                 "repo": "adeb",
-                "stars": 337
+                "stars": 337,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1151,12 +1739,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An In-Kernel Solution Based on eBPF / XDP for 5G UPF",
+                "homepage": null,
                 "id": 274778444,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2024-09-28T13:02:41Z",
+                "open_issues": 17,
                 "owner": "navarrothiago",
                 "repo": "upf-bpf",
-                "stars": 217
+                "stars": 217,
+                "topics": [
+                  "3gpp",
+                  "5g",
+                  "5g-core",
+                  "5g-core-network",
+                  "5gc",
+                  "bpf",
+                  "cmake",
+                  "co-re",
+                  "ebpf",
+                  "flex",
+                  "trex-engine",
+                  "trex-traffic-generator",
+                  "upf"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1167,12 +1774,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "BPFd (Deprecated, please see README.md) : Berkeley Packet Filter daemon (BPFd). Makes it possible to run BCC tools across systems.",
+                "homepage": null,
                 "id": 102321435,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2021-10-24T19:43:20Z",
+                "open_issues": 17,
                 "owner": "joelagnel",
                 "repo": "bpfd",
-                "stars": 97
+                "stars": 97,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1183,12 +1795,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "greg(g)d - Global runtime for eBPF-enabled gathering (w/ gumption) daemon",
+                "homepage": null,
                 "id": 267102301,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-03-20T15:58:35Z",
+                "open_issues": 4,
                 "owner": "olcf",
                 "repo": "greggd",
-                "stars": 6
+                "stars": 6,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -1210,12 +1827,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Linux eBPF rootkit with a backdoor, C2, library injection, execution hijacking, persistence and stealth capabilities.",
+            "homepage": null,
             "id": 421918747,
             "language": "C",
+            "license": "GPL-3.0",
             "last_commit": "2024-04-07T02:06:19Z",
+            "open_issues": 19,
             "owner": "h3xduck",
             "repo": "TripleCross",
-            "stars": 1977
+            "stars": 1977,
+            "topics": [
+              "backdoor",
+              "ebpf",
+              "kernel",
+              "libbpf",
+              "rootkit",
+              "security"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -1226,12 +1855,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ebpfkit is a rootkit powered by eBPF",
+            "homepage": null,
             "id": 351886433,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2023-02-28T16:16:20Z",
+            "open_issues": 4,
             "owner": "Gui774ume",
             "repo": "ebpfkit",
-            "stars": 855
+            "stars": 855,
+            "topics": [
+              "ebpf",
+              "kernel",
+              "linux",
+              "linux-kernel",
+              "linux-kernel-hacking",
+              "rootkit",
+              "runtime-security",
+              "security"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -1242,12 +1885,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A collection of eBPF programs demonstrating bad behavior, presented at DEF CON 29 ",
+            "homepage": null,
             "id": 369981774,
             "language": "C",
+            "license": "BSD-3-Clause",
             "last_commit": "2024-07-07T21:33:24Z",
+            "open_issues": 2,
             "owner": "pathtofile",
             "repo": "bad-bpf",
-            "stars": 697
+            "stars": 697,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -1258,12 +1906,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ebpfkit-monitor is a tool that detects and protects against eBPF powered rootkits",
+            "homepage": null,
             "id": 381632493,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2023-02-28T16:16:29Z",
+            "open_issues": 2,
             "owner": "Gui774ume",
             "repo": "ebpfkit-monitor",
-            "stars": 143
+            "stars": 143,
+            "topics": [
+              "ebpf",
+              "kernel",
+              "linux",
+              "linux-kernel",
+              "linux-kernel-hacking",
+              "rootkit",
+              "runtime-security",
+              "security"
+            ]
           },
           "first_seen": "2026-08-29T01:07:53.435Z"
         },
@@ -1276,12 +1938,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "XDP project collaboration through a git-repo",
+                "homepage": null,
                 "id": 159467561,
                 "language": "CSS",
+                "license": null,
                 "last_commit": "2026-08-12T17:34:19Z",
+                "open_issues": 6,
                 "owner": "xdp-project",
                 "repo": "xdp-project",
-                "stars": 314
+                "stars": 314,
+                "topics": [
+                  "bpf",
+                  "ebpf",
+                  "xdp"
+                ]
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -1299,12 +1970,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+                "homepage": null,
                 "id": 34921116,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T11:24:41Z",
+                "open_issues": 1072,
                 "owner": "iovisor",
                 "repo": "bcc",
-                "stars": 22645
+                "stars": 22644,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             },
@@ -1315,12 +1991,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Presentations and docs",
+                "homepage": null,
                 "id": 41122712,
                 "language": null,
+                "license": null,
                 "last_commit": "2022-09-20T16:08:15Z",
+                "open_issues": 3,
                 "owner": "iovisor",
                 "repo": "bpf-docs",
-                "stars": 1017
+                "stars": 1017,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
             }
@@ -1334,15 +2015,25 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T01:07:53.435Z",
+    "last_updated": "2026-08-29T04:55:02.825Z",
     "original_repository_info": {
       "archived": false,
+      "description": "与 eBPF 相关的精选项目的中文清单 （自动翻译自 https://github.com/zoidyzoidzoid/awesome-ebpf）",
+      "homepage": null,
       "id": 619139971,
       "language": "Python",
+      "license": "CC0-1.0",
       "last_commit": "2025-08-23T14:12:50Z",
+      "open_issues": 0,
       "owner": "eunomia-bpf",
       "repo": "awesome-ebpf-zh",
-      "stars": 128
+      "stars": 128,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "bpf",
+        "ebpf"
+      ]
     },
     "original_repository_sha": "8e96237ca796d9d4f052ac251c670c424567b66a",
     "enhanced_repository": "enhansome/enhansome-ebpf-zh",
