@@ -718,7 +718,7 @@
                 "id": 331227477,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-29T17:37:23Z",
+                "last_commit": "2026-08-30T10:20:17Z",
                 "open_issues": 208,
                 "owner": "aya-rs",
                 "repo": "aya",
@@ -886,7 +886,7 @@
                 "open_issues": 17,
                 "owner": "qmonnet",
                 "repo": "rbpf",
-                "stars": 1125,
+                "stars": 1126,
                 "topics": [
                   "assembler",
                   "bpf",
@@ -916,7 +916,7 @@
                 "open_issues": 18,
                 "owner": "iovisor",
                 "repo": "ubpf",
-                "stars": 986,
+                "stars": 987,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
@@ -937,7 +937,7 @@
                 "open_issues": 42,
                 "owner": "vbpf",
                 "repo": "prevail",
-                "stars": 468,
+                "stars": 469,
                 "topics": [
                   "abstract-interpretation",
                   "ebpf",
@@ -1017,8 +1017,8 @@
                 "id": 355718757,
                 "language": "C",
                 "license": "MIT",
-                "last_commit": "2026-08-29T19:52:21Z",
-                "open_issues": 324,
+                "last_commit": "2026-08-29T21:06:58Z",
+                "open_issues": 322,
                 "owner": "microsoft",
                 "repo": "ebpf-for-windows",
                 "stars": 3555,
@@ -1079,11 +1079,11 @@
                 "id": 48109239,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-29T19:53:49Z",
-                "open_issues": 1090,
+                "last_commit": "2026-08-30T19:44:22Z",
+                "open_issues": 1097,
                 "owner": "cilium",
                 "repo": "cilium",
-                "stars": 25027,
+                "stars": 25028,
                 "topics": [
                   "bpf",
                   "cncf",
@@ -1174,7 +1174,7 @@
                     "language": "C++",
                     "license": null,
                     "last_commit": "2026-08-24T03:08:51Z",
-                    "open_issues": 470,
+                    "open_issues": 472,
                     "owner": "p4lang",
                     "repo": "p4c",
                     "stars": 836,
@@ -1282,7 +1282,7 @@
                 "open_issues": 44,
                 "owner": "cilium",
                 "repo": "hubble",
-                "stars": 4317,
+                "stars": 4318,
                 "topics": [
                   "cilium",
                   "ebpf",
@@ -1312,7 +1312,7 @@
                 "open_issues": 18,
                 "owner": "groundcover-com",
                 "repo": "caretta",
-                "stars": 2056,
+                "stars": 2057,
                 "topics": [
                   "ebpf",
                   "kubernetes",
@@ -1460,11 +1460,11 @@
                 "id": 473137633,
                 "language": "C",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-28T23:35:57Z",
+                "last_commit": "2026-08-30T09:42:54Z",
                 "open_issues": 267,
                 "owner": "cilium",
                 "repo": "tetragon",
-                "stars": 4963,
+                "stars": 4964,
                 "topics": [
                   "bpf",
                   "ebpf",
@@ -1491,7 +1491,7 @@
                 "open_issues": 121,
                 "owner": "aquasecurity",
                 "repo": "tracee",
-                "stars": 4595,
+                "stars": 4597,
                 "topics": [
                   "bpf",
                   "docker",
@@ -1521,7 +1521,7 @@
                 "open_issues": 42,
                 "owner": "microsoft",
                 "repo": "SysmonForLinux",
-                "stars": 2153,
+                "stars": 2154,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:07:53.435Z"
@@ -1915,7 +1915,7 @@
             "open_issues": 2,
             "owner": "Gui774ume",
             "repo": "ebpfkit-monitor",
-            "stars": 143,
+            "stars": 144,
             "topics": [
               "ebpf",
               "kernel",
@@ -2015,7 +2015,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T19:57:50.159Z",
+    "last_updated": "2026-08-30T19:59:16.103Z",
     "original_repository_info": {
       "archived": false,
       "description": "与 eBPF 相关的精选项目的中文清单 （自动翻译自 https://github.com/zoidyzoidzoid/awesome-ebpf）",
