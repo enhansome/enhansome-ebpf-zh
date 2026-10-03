@@ -44,7 +44,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 其他
 
-* [内核版本中的 BPF 特性列表](https://github.com/iovisor/bcc/blob/master/docs/kernel-versions.md) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02
+* [内核版本中的 BPF 特性列表](https://github.com/iovisor/bcc/blob/master/docs/kernel-versions.md) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02
 
 * [IO Visor 的非官方 eBPF 规范](https://github.com/iovisor/bpf-docs/blob/master/eBPF.md) ⭐ 1,017 | 🐛 3 | 📅 2022-09-20 - eBPF 语法和操作码摘要。
 
@@ -62,7 +62,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 如果您刚接触 eBPF，可能想先查看本节中标记为"介绍"的链接。
 
-* [BPF 参考指南](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 来自 bcc 仓库的 BPF C 和 bcc Python 辅助函数指南。
+* [BPF 参考指南](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 来自 bcc 仓库的 BPF C 和 bcc Python 辅助函数指南。
 
 * [eBPF入门指南](https://github.com/lizrice/ebpf-beginners) ⭐ 1,729 | 🐛 3 | 🌐 Python | 📅 2023-05-08 - 一组现场编码讲座及其附带的代码示例，介绍使用各种库和程序类型进行eBPF编程。
 
@@ -198,9 +198,9 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ## 教程
 
-* [bcc 参考指南](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 许多增量步骤来开始使用 bcc 和 eBPF，大多集中在跟踪和监视上。
-* [bcc Python 开发者教程](https://github.com/iovisor/bcc/blob/master/docs/tutorial_bcc_python_developer.md) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 随 bcc 一起提供，但针对 Python 代码，共包含十七个“课程”。
-* [XDP 实践教程](https://github.com/xdp-project/xdp-tutorial) ⭐ 2,982 | 🐛 170 | 🌐 C | 📅 2026-05-08 - 渐进式（包含三个难度级别）的教程，学习如何使用 XDP 处理数据包。
+* [bcc 参考指南](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 许多增量步骤来开始使用 bcc 和 eBPF，大多集中在跟踪和监视上。
+* [bcc Python 开发者教程](https://github.com/iovisor/bcc/blob/master/docs/tutorial_bcc_python_developer.md) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 随 bcc 一起提供，但针对 Python 代码，共包含十七个“课程”。
+* [XDP 实践教程](https://github.com/xdp-project/xdp-tutorial) ⭐ 2,983 | 🐛 170 | 🌐 C | 📅 2026-05-08 - 渐进式（包含三个难度级别）的教程，学习如何使用 XDP 处理数据包。
 * [Linux 跟踪工作坊材料](https://github.com/goldshtn/linux-tracing-workshop) ⭐ 1,320 | 🐛 7 | 🌐 HTML | 📅 2020-06-19 - 使用多个 BPF 工具进行跟踪。
 * [使用 libbpf-bootstrap 构建 BPF 应用程序](https://nakryiko.com/posts/libbpf-bootstrap/) - 帮助生成启动自己应用程序的最小或高级模板（内核侧和用户空间管理映射和程序），具有诸如 CO-RE、全局变量和环形缓冲区之类的功能。
 * [我是如何使用纯 C 和 eBPF 编写 opensnoop 的](https://bolinfest.github.io/opensnoop-native/) - 对如何编写 eBPF 程序进行彻底介绍，首先仅使用 bpf() 系统调用，然后使用 libbpf 库，以及可复现的代码示例。
@@ -213,8 +213,8 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ## 示例
 
-* [bcc/examples](https://github.com/iovisor/bcc/tree/master/examples) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 与 bcc 工具一起提供的示例，主要与跟踪有关。
-* [bcc/tools](https://github.com/iovisor/bcc/tree/master/tools) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 这些工具本身可以被视为 BPF 程序的示例用例，主要用于追踪和监视。 bcc 工具已针对一些 Linux 发行版进行了打包。
+* [bcc/examples](https://github.com/iovisor/bcc/tree/master/examples) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 与 bcc 工具一起提供的示例，主要与跟踪有关。
+* [bcc/tools](https://github.com/iovisor/bcc/tree/master/tools) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 这些工具本身可以被视为 BPF 程序的示例用例，主要用于追踪和监视。 bcc 工具已针对一些 Linux 发行版进行了打包。
 * [redbpf examples](https://github.com/foniod/redbpf/tree/main/examples) ⚠️ Archived - 使用 RedBPF 编写 Rust eBPF 程序的示例程序。
 * [prototype-kernel/kernel/samples/bpf](https://github.com/netoptimizer/prototype-kernel/tree/master/kernel/samples/bpf) ⭐ 316 | 🐛 13 | 🌐 C | 📅 2025-01-16 - Jesper Dangaard Brouer 的原型内核存储库包含一些可以在内核基础设施之外编译的附加示例。
 * [Netronome sample network applications](https://github.com/Netronome/bpf-samples/) ⭐ 110 | 🐛 6 | 🌐 C | 📅 2020-04-06 - 提供基本但完整的 eBPF 应用程序示例，也与硬件卸载兼容。
@@ -229,8 +229,8 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### bcc
 
-* [bcc](https://github.com/iovisor/bcc/) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 框架和工具 - 一种处理 BPF 程序的方法，特别是用于跟踪和监控。还包括一些实用程序，可帮助检查系统中的映射或程序。
-* [bcc 的 Lua 前端](https://github.com/iovisor/bcc/tree/master/src/lua) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 另一种替代 C，甚至是 bcc 中大多数 Python 代码的选择。
+* [bcc](https://github.com/iovisor/bcc/) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 框架和工具 - 一种处理 BPF 程序的方法，特别是用于跟踪和监控。还包括一些实用程序，可帮助检查系统中的映射或程序。
+* [bcc 的 Lua 前端](https://github.com/iovisor/bcc/tree/master/src/lua) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 另一种替代 C，甚至是 bcc 中大多数 Python 代码的选择。
 
 ### iproute2
 
@@ -262,7 +262,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### Aya
 
-* [aya](https://github.com/aya-rs/aya) ⭐ 4,837 | 🐛 204 | 🌐 Rust | 📅 2026-10-02 - 一种用纯 Rust 编写、加载和管理 eBPF 对象的库，专注于开发人员体验和可操作性。它支持在 Rust 中编写 eBPF 程序，并通过 crates.io 分发库代码以在 eBPF 程序之间共享。Aya 不依赖于 libbpf。
+* [aya](https://github.com/aya-rs/aya) ⭐ 4,837 | 🐛 203 | 🌐 Rust | 📅 2026-10-03 - 一种用纯 Rust 编写、加载和管理 eBPF 对象的库，专注于开发人员体验和可操作性。它支持在 Rust 中编写 eBPF 程序，并通过 crates.io 分发库代码以在 eBPF 程序之间共享。Aya 不依赖于 libbpf。
 * [aya-template](https://github.com/aya-rs/aya-template) ⭐ 144 | 🐛 6 | 🌐 Rust | 📅 2026-09-29 - 用于在 Aya 中编写 BPF 应用程序的模板，可以与 [`cargo generate`](https://github.com/cargo-generate/cargo-generate) ⭐ 2,487 | 🐛 32 | 🌐 Rust | 📅 2026-09-28 一起使用。
 
 ### zbpf
@@ -289,7 +289,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 ### 用户空间 eBPF
 
 * [rbpf](https://github.com/qmonnet/rbpf) ⭐ 1,131 | 🐛 19 | 🌐 Rust | 📅 2026-06-03 - 用 Rust 编写。用于 Linux、macOS 和 Windows 的解释器，以及在 Linux 下用于 x86\_64 的 JIT 编译器。
-* [uBPF](https://github.com/iovisor/ubpf/) ⭐ 989 | 🐛 14 | 🌐 C | 📅 2026-10-02 - 用 C 编写。包含一个解释器、一个用于 x86\_64 架构的 JIT 编译器、一个汇编器和反汇编器。
+* [uBPF](https://github.com/iovisor/ubpf/) ⭐ 989 | 🐛 14 | 🌐 C | 📅 2026-10-03 - 用 C 编写。包含一个解释器、一个用于 x86\_64 架构的 JIT 编译器、一个汇编器和反汇编器。
 * [PREVAIL](https://github.com/vbpf/ebpf-verifier) ⭐ 471 | 🐛 39 | 🌐 C++ | 📅 2026-09-30 - 用于 eBPF 的用户空间验证器，[使用抽象解释层实现](https://elazarg.github.io/pldi19main-final.pdf)，支持循环。
 * [oster](https://github.com/grantseltzer/oster) ⚠️ Archived - 用 Go 编写。通过将 eBPF 附加到 uprobes 来跟踪 Go 程序的执行的工具。
 * [A generic implementation](https://github.com/YutaroHayakawa/generic-ebpf) ⭐ 154 | 🐛 2 | 🌐 C | 📅 2021-05-28 - 支持 FreeBSD kernel、FreeBSD user space、Linux kernel、Linux user space 和 macOS user space。用于 [VALE 软件交换机](https://www.unix.com/man-page/freebsd/4/vale/) 的 [BPF 扩展模块](https://github.com/YutaroHayakawa/vale-bpf) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2019-11-06。
@@ -297,7 +297,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 其他平台上的eBPF
 
-* [eBPF for Windows](https://github.com/microsoft/ebpf-for-windows) ⭐ 3,566 | 🐛 333 | 🌐 C | 📅 2026-10-02 - 这个项目还在进行中，它允许使用现有的eBPF工具链和Linux生态系统中熟悉的API在Windows上使用。
+* [eBPF for Windows](https://github.com/microsoft/ebpf-for-windows) ⭐ 3,566 | 🐛 335 | 🌐 C | 📅 2026-10-03 - 这个项目还在进行中，它允许使用现有的eBPF工具链和Linux生态系统中熟悉的API在Windows上使用。
 
 ### 在虚拟环境中进行测试
 
@@ -308,14 +308,14 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 网络
 
-* [Cilium](https://cilium.io/) 项目 ([GitHub 代码库](https://github.com/cilium/cilium) ⭐ 25,592 | 🐛 1,112 | 🌐 Go | 📅 2026-10-02) 是一项依赖于 BPF 和 XDP 技术的项目，可为基于容器的快速内核网络和安全策略实施提供“即时生成的eBPF程序”的支持。有许多演示文稿可用（有些内容重复）：
+* [Cilium](https://cilium.io/) 项目 ([GitHub 代码库](https://github.com/cilium/cilium) ⭐ 25,592 | 🐛 1,108 | 🌐 Go | 📅 2026-10-02) 是一项依赖于 BPF 和 XDP 技术的项目，可为基于容器的快速内核网络和安全策略实施提供“即时生成的eBPF程序”的支持。有许多演示文稿可用（有些内容重复）：
 
 * [merbridge](https://github.com/merbridge/merbridge/) ⭐ 806 | 🐛 37 | 🌐 Go | 📅 2025-05-19 - 使用eBPF加速您的Service Mesh。Merbridge使用eBPF替换iptables规则以拦截流量。它还结合了msg\_redirect以减少延迟，并在sidecars和服务之间缩短了数据路径。
 
 * P4 与 eBPF 有一些交互：
 
 * [P4 on the Edge](https://schd.ws/hosted_files/2016p4workshop/1d/Intel%20Fastabend-P4%20on%20the%20Edge.pdf) - 使用 eBPF 创建高性能可编程交换机的 P4。
-  * [P4 使用 eBPF 的旧文档](https://github.com/iovisor/bcc/tree/master/src/cc/frontends/p4) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 来自 bcc 存储库；由下面链接的 P4\_16 后端弃用。
+  * [P4 使用 eBPF 的旧文档](https://github.com/iovisor/bcc/tree/master/src/cc/frontends/p4) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02 - 来自 bcc 存储库；由下面链接的 P4\_16 后端弃用。
   * [eBPF 的 P4\_16 后端](https://github.com/p4lang/p4c/blob/master/backends/ebpf/README.md) ⭐ 841 | 🐛 488 | 🌐 C++ | 📅 2026-10-02。
   * [OvS Orbit episode (#11)，名为 P4 on the Edge](https://ovsorbit.org/#e11) - 相关于前一条项目。由 Open vSwitch 核心维护者之一的 Ben Pfaff 对 John Fastabend 进行的音频采访。
   * [P4、EBPF 和 Linux TC Offload](https://open-nfp.org/m/documents/Open_NFP_P4_EBPF_Linux_TC_Offload_FINAL_5JHLETS.pdf) - 部分与 Netronome NFP 网络流处理器架构上的 eBPF 硬件卸载相关的 P4。
@@ -367,7 +367,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 安全
 
-* [Tetragon](https://github.com/cilium/tetragon) ⭐ 5,048 | 🐛 288 | 🌐 C | 📅 2026-10-02 - 面向 Kubernetes、基于 eBPF 的安全监测和运行时强制执行工具。
+* [Tetragon](https://github.com/cilium/tetragon) ⭐ 5,049 | 🐛 290 | 🌐 C | 📅 2026-10-02 - 面向 Kubernetes、基于 eBPF 的安全监测和运行时强制执行工具。
 * [Tracee](https://github.com/aquasecurity/tracee) ⭐ 4,630 | 🐛 125 | 🌐 Go | 📅 2026-10-01 - 一款用于 Linux 的运行时安全和取证工具，它使用 eBPF 技术对系统和应用程序进行跟踪，在运行时分析收集的事件以检测可疑的行为模式。
 * [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) ⭐ 2,162 | 🐛 41 | 🌐 C | 📅 2026-09-14 - 一款安全监控工具。它依赖于[SysinternalsEBPF](https://github.com/Sysinternals/SysinternalsEBPF) ⭐ 288 | 🐛 15 | 🌐 C | 📅 2026-09-14。
 * [bpflock - 锁定 Linux 机器](https://github.com/linux-lock/bpflock) ⭐ 157 | 🐛 3 | 🌐 C | 📅 2022-02-16 - 一种基于 eBPF 的安全工具，用于锁定和审计 Linux 机器。
@@ -436,7 +436,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ## 其他 eBPF 资源列表
 
-* [IO Visor 的 bcc 文档](https://github.com/iovisor/bcc/tree/master/docs) ⭐ 22,692 | 🐛 1,076 | 🌐 C | 📅 2026-10-02
+* [IO Visor 的 bcc 文档](https://github.com/iovisor/bcc/tree/master/docs) ⭐ 22,693 | 🐛 1,076 | 🌐 C | 📅 2026-10-02
 * [IO Visor 的 bpf-docs 仓库](https://github.com/iovisor/bpf-docs/) ⭐ 1,017 | 🐛 3 | 📅 2022-09-20
 * [深入理解 BPF：阅读材料列表](https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/)
 
@@ -456,4 +456,4 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-02._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._
