@@ -6,7 +6,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 最近，[Cilium](https://cilium.io) 推出了一个关于 eBPF 的优秀网站 [ebpf.io](https://ebpf.io/)。它与本列表有相似的作用，提供了 [eBPF 简介](https://ebpf.io/what-is-ebpf) 以及相关项目的链接。
 
-> 注意：eBPF 是一项令人兴奋的技术，其生态系统正在快速发展。我们非常欢迎您的帮助，以保持这个列表的时效性，并以任何可能的方式提高其信噪比。请随时在[这里](https://github.com/zoidbergwill/awesome-ebpf/issues) ⭐ 5,207 | 🐛 10 | 📅 2026-11-11留下您的反馈。
+> 注意：eBPF 是一项令人兴奋的技术，其生态系统正在快速发展。我们非常欢迎您的帮助，以保持这个列表的时效性，并以任何可能的方式提高其信噪比。请随时在[这里](https://github.com/zoidbergwill/awesome-ebpf/issues) ⭐ 5,207 | 🐛 11 | 📅 2026-11-11留下您的反馈。
 
 ## 目录
 
@@ -200,7 +200,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 * [bcc 参考指南](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md) ⭐ 22,755 | 🐛 1,104 | 🌐 C | 📅 2026-11-17 - 许多增量步骤来开始使用 bcc 和 eBPF，大多集中在跟踪和监视上。
 * [bcc Python 开发者教程](https://github.com/iovisor/bcc/blob/master/docs/tutorial_bcc_python_developer.md) ⭐ 22,755 | 🐛 1,104 | 🌐 C | 📅 2026-11-17 - 随 bcc 一起提供，但针对 Python 代码，共包含十七个“课程”。
-* [XDP 实践教程](https://github.com/xdp-project/xdp-tutorial) ⭐ 3,002 | 🐛 170 | 🌐 C | 📅 2026-05-08 - 渐进式（包含三个难度级别）的教程，学习如何使用 XDP 处理数据包。
+* [XDP 实践教程](https://github.com/xdp-project/xdp-tutorial) ⭐ 3,003 | 🐛 170 | 🌐 C | 📅 2026-05-08 - 渐进式（包含三个难度级别）的教程，学习如何使用 XDP 处理数据包。
 * [Linux 跟踪工作坊材料](https://github.com/goldshtn/linux-tracing-workshop) ⭐ 1,320 | 🐛 7 | 🌐 HTML | 📅 2020-06-19 - 使用多个 BPF 工具进行跟踪。
 * [使用 libbpf-bootstrap 构建 BPF 应用程序](https://nakryiko.com/posts/libbpf-bootstrap/) - 帮助生成启动自己应用程序的最小或高级模板（内核侧和用户空间管理映射和程序），具有诸如 CO-RE、全局变量和环形缓冲区之类的功能。
 * [我是如何使用纯 C 和 eBPF 编写 opensnoop 的](https://bolinfest.github.io/opensnoop-native/) - 对如何编写 eBPF 程序进行彻底介绍，首先仅使用 bpf() 系统调用，然后使用 libbpf 库，以及可复现的代码示例。
@@ -251,19 +251,19 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### libbpf
 
-* [libbpf](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/tools/lib/bpf) - 一个用于处理BPF对象（程序和映射）和操作包含它们的ELF对象文件的C库。它随内核一起提供，并在[GitHub上进行了镜像](https://github.com/libbpf/libbpf) ⭐ 2,785 | 🐛 31 | 🌐 C | 📅 2026-11-18。
+* [libbpf](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/tools/lib/bpf) - 一个用于处理BPF对象（程序和映射）和操作包含它们的ELF对象文件的C库。它随内核一起提供，并在[GitHub上进行了镜像](https://github.com/libbpf/libbpf) ⭐ 2,785 | 🐛 32 | 🌐 C | 📅 2026-11-18。
 * [libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap) ⭐ 1,540 | 🐛 17 | 🌐 CMake | 📅 2026-11-16 - 用于使用libbpf和BPF CO-RE进行BPF应用开发的脚手架。
 
 ### Go 库
 
-* [cilium/ebpf](https://github.com/cilium/ebpf) ⭐ 8,043 | 🐛 24 | 🌐 Go | 📅 2026-11-19 - 纯Go库，用于读取、修改、加载eBPF程序并将其附加到Linux内核中的各种钩子。
+* [cilium/ebpf](https://github.com/cilium/ebpf) ⭐ 8,044 | 🐛 26 | 🌐 Go | 📅 2026-11-19 - 纯Go库，用于读取、修改、加载eBPF程序并将其附加到Linux内核中的各种钩子。
 * [gobpf](https://github.com/iovisor/gobpf) ⭐ 2,178 | 🐛 82 | 🌐 C | 📅 2023-08-31 - 用于创建eBPF程序的BCC的Go绑定。
-* [libbpfgo](https://github.com/aquasecurity/libbpfgo) ⭐ 854 | 🐛 37 | 🌐 Go | 📅 2026-10-14 - 由libbpf支持的用于Go的eBPF库。
+* [libbpfgo](https://github.com/aquasecurity/libbpfgo) ⭐ 854 | 🐛 36 | 🌐 Go | 📅 2026-10-14 - 由libbpf支持的用于Go的eBPF库。
 
 ### Aya
 
-* [aya](https://github.com/aya-rs/aya) ⭐ 4,926 | 🐛 222 | 🌐 Rust | 📅 2026-11-22 - 一种用纯 Rust 编写、加载和管理 eBPF 对象的库，专注于开发人员体验和可操作性。它支持在 Rust 中编写 eBPF 程序，并通过 crates.io 分发库代码以在 eBPF 程序之间共享。Aya 不依赖于 libbpf。
-* [aya-template](https://github.com/aya-rs/aya-template) ⭐ 148 | 🐛 9 | 🌐 Rust | 📅 2026-11-16 - 用于在 Aya 中编写 BPF 应用程序的模板，可以与 [`cargo generate`](https://github.com/cargo-generate/cargo-generate) ⭐ 2,494 | 🐛 32 | 🌐 Rust | 📅 2026-11-09 一起使用。
+* [aya](https://github.com/aya-rs/aya) ⭐ 4,927 | 🐛 223 | 🌐 Rust | 📅 2026-11-23 - 一种用纯 Rust 编写、加载和管理 eBPF 对象的库，专注于开发人员体验和可操作性。它支持在 Rust 中编写 eBPF 程序，并通过 crates.io 分发库代码以在 eBPF 程序之间共享。Aya 不依赖于 libbpf。
+* [aya-template](https://github.com/aya-rs/aya-template) ⭐ 148 | 🐛 9 | 🌐 Rust | 📅 2026-11-23 - 用于在 Aya 中编写 BPF 应用程序的模板，可以与 [`cargo generate`](https://github.com/cargo-generate/cargo-generate) ⭐ 2,494 | 🐛 35 | 🌐 Rust | 📅 2026-11-23 一起使用。
 
 ### zbpf
 
@@ -271,7 +271,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### eunomia-bpf
 
-* [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) ⭐ 910 | 🐛 28 | 🌐 Rust | 📅 2026-11-21 - 一个编译框架和运行库，可用于构建、分发、动态加载和运行多语言和WebAssembly的CO-RE eBPF应用程序。它支持仅写eBPF内核代码（以构建简单的CO-RE libbpf eBPF应用程序）、同时以BCC和libbpf风格编写内核部分，以及在WASM模块中以多种语言编写用户空间，并使用简单的JSON数据或WASM OCI镜像分发它。运行时仅基于libbpf，并提供CO-RE给BCC-style的eBPF程序，而不依赖于LLVM库。
+* [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) ⭐ 911 | 🐛 25 | 🌐 Rust | 📅 2026-11-24 - 一个编译框架和运行库，可用于构建、分发、动态加载和运行多语言和WebAssembly的CO-RE eBPF应用程序。它支持仅写eBPF内核代码（以构建简单的CO-RE libbpf eBPF应用程序）、同时以BCC和libbpf风格编写内核部分，以及在WASM模块中以多种语言编写用户空间，并使用简单的JSON数据或WASM OCI镜像分发它。运行时仅基于libbpf，并提供CO-RE给BCC-style的eBPF程序，而不依赖于LLVM库。
 
 ### oxidebpf
 
@@ -289,15 +289,15 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 ### 用户空间 eBPF
 
 * [rbpf](https://github.com/qmonnet/rbpf) ⭐ 1,135 | 🐛 16 | 🌐 Rust | 📅 2026-11-20 - 用 Rust 编写。用于 Linux、macOS 和 Windows 的解释器，以及在 Linux 下用于 x86\_64 的 JIT 编译器。
-* [uBPF](https://github.com/iovisor/ubpf/) ⭐ 997 | 🐛 14 | 🌐 C | 📅 2026-11-22 - 用 C 编写。包含一个解释器、一个用于 x86\_64 架构的 JIT 编译器、一个汇编器和反汇编器。
-* [PREVAIL](https://github.com/vbpf/ebpf-verifier) ⭐ 475 | 🐛 36 | 🌐 C++ | 📅 2026-11-22 - 用于 eBPF 的用户空间验证器，[使用抽象解释层实现](https://elazarg.github.io/pldi19main-final.pdf)，支持循环。
+* [uBPF](https://github.com/iovisor/ubpf/) ⭐ 997 | 🐛 14 | 🌐 C | 📅 2026-11-23 - 用 C 编写。包含一个解释器、一个用于 x86\_64 架构的 JIT 编译器、一个汇编器和反汇编器。
+* [PREVAIL](https://github.com/vbpf/ebpf-verifier) ⭐ 475 | 🐛 41 | 🌐 C++ | 📅 2026-11-23 - 用于 eBPF 的用户空间验证器，[使用抽象解释层实现](https://elazarg.github.io/pldi19main-final.pdf)，支持循环。
 * [oster](https://github.com/grantseltzer/oster) ⚠️ Archived - 用 Go 编写。通过将 eBPF 附加到 uprobes 来跟踪 Go 程序的执行的工具。
 * [A generic implementation](https://github.com/YutaroHayakawa/generic-ebpf) ⭐ 154 | 🐛 2 | 🌐 C | 📅 2021-05-28 - 支持 FreeBSD kernel、FreeBSD user space、Linux kernel、Linux user space 和 macOS user space。用于 [VALE 软件交换机](https://www.unix.com/man-page/freebsd/4/vale/) 的 [BPF 扩展模块](https://github.com/YutaroHayakawa/vale-bpf) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2019-11-06。
 * [wachy](https://rubrikinc.github.io/wachy/) - 一款追踪分析器，旨在通过将跟踪结果显示在源代码旁边并允许交互式分析以简化 eBPF uprobes 调试的使用。
 
 ### 其他平台上的eBPF
 
-* [eBPF for Windows](https://github.com/microsoft/ebpf-for-windows) ⭐ 3,595 | 🐛 320 | 🌐 C | 📅 2026-11-20 - 这个项目还在进行中，它允许使用现有的eBPF工具链和Linux生态系统中熟悉的API在Windows上使用。
+* [eBPF for Windows](https://github.com/microsoft/ebpf-for-windows) ⭐ 3,595 | 🐛 319 | 🌐 C | 📅 2026-11-23 - 这个项目还在进行中，它允许使用现有的eBPF工具链和Linux生态系统中熟悉的API在Windows上使用。
 
 ### 在虚拟环境中进行测试
 
@@ -308,7 +308,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 网络
 
-* [Cilium](https://cilium.io/) 项目 ([GitHub 代码库](https://github.com/cilium/cilium) ⭐ 25,882 | 🐛 1,072 | 🌐 Go | 📅 2026-11-22) 是一项依赖于 BPF 和 XDP 技术的项目，可为基于容器的快速内核网络和安全策略实施提供“即时生成的eBPF程序”的支持。有许多演示文稿可用（有些内容重复）：
+* [Cilium](https://cilium.io/) 项目 ([GitHub 代码库](https://github.com/cilium/cilium) ⭐ 25,894 | 🐛 1,062 | 🌐 Go | 📅 2026-11-24) 是一项依赖于 BPF 和 XDP 技术的项目，可为基于容器的快速内核网络和安全策略实施提供“即时生成的eBPF程序”的支持。有许多演示文稿可用（有些内容重复）：
 
 * [merbridge](https://github.com/merbridge/merbridge/) ⭐ 805 | 🐛 37 | 🌐 Go | 📅 2025-05-19 - 使用eBPF加速您的Service Mesh。Merbridge使用eBPF替换iptables规则以拦截流量。它还结合了msg\_redirect以减少延迟，并在sidecars和服务之间缩短了数据路径。
 
@@ -316,7 +316,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 * [P4 on the Edge](https://schd.ws/hosted_files/2016p4workshop/1d/Intel%20Fastabend-P4%20on%20the%20Edge.pdf) - 使用 eBPF 创建高性能可编程交换机的 P4。
   * [P4 使用 eBPF 的旧文档](https://github.com/iovisor/bcc/tree/master/src/cc/frontends/p4) ⭐ 22,755 | 🐛 1,104 | 🌐 C | 📅 2026-11-17 - 来自 bcc 存储库；由下面链接的 P4\_16 后端弃用。
-  * [eBPF 的 P4\_16 后端](https://github.com/p4lang/p4c/blob/master/backends/ebpf/README.md) ⭐ 852 | 🐛 474 | 🌐 C++ | 📅 2026-11-21。
+  * [eBPF 的 P4\_16 后端](https://github.com/p4lang/p4c/blob/master/backends/ebpf/README.md) ⭐ 852 | 🐛 477 | 🌐 C++ | 📅 2026-11-24。
   * [OvS Orbit episode (#11)，名为 P4 on the Edge](https://ovsorbit.org/#e11) - 相关于前一条项目。由 Open vSwitch 核心维护者之一的 Ben Pfaff 对 John Fastabend 进行的音频采访。
   * [P4、EBPF 和 Linux TC Offload](https://open-nfp.org/m/documents/Open_NFP_P4_EBPF_Linux_TC_Offload_FINAL_5JHLETS.pdf) - 部分与 Netronome NFP 网络流处理器架构上的 eBPF 硬件卸载相关的 P4。
 
@@ -356,20 +356,20 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 可观测性
 
-* [pixie](https://github.com/pixie-io/pixie) ⭐ 6,562 | 🐛 400 | 🌐 C++ | 📅 2026-11-09 - 使用eBPF进行Kubernetes的可观测性分析。支持协议跟踪，应用程序分析以及分布式bpftrace部署等功能。
-* [Hubble](https://github.com/cilium/hubble) ⭐ 4,396 | 🐛 43 | 🌐 Makefile | 📅 2026-11-16 - 使用eBPF为Kubernetes提供网络、服务和安全可观测性。
-* [Caretta](https://github.com/groundcover-com/caretta) ⭐ 2,075 | 🐛 19 | 🌐 Go | 📅 2025-03-17 - 通过eBPF生成的即时Kubernetes服务依赖图，可直接输出到Grafana示例。
+* [pixie](https://github.com/pixie-io/pixie) ⭐ 6,562 | 🐛 403 | 🌐 C++ | 📅 2026-11-09 - 使用eBPF进行Kubernetes的可观测性分析。支持协议跟踪，应用程序分析以及分布式bpftrace部署等功能。
+* [Hubble](https://github.com/cilium/hubble) ⭐ 4,396 | 🐛 45 | 🌐 Makefile | 📅 2026-11-24 - 使用eBPF为Kubernetes提供网络、服务和安全可观测性。
+* [Caretta](https://github.com/groundcover-com/caretta) ⭐ 2,074 | 🐛 19 | 🌐 Go | 📅 2025-03-17 - 通过eBPF生成的即时Kubernetes服务依赖图，可直接输出到Grafana示例。
 * [InKeV: In-Kernel Distributed Network Virtualization for DCN](https://github.com/iovisor/bpf-docs/blob/master/university/sigcomm-ccr-InKev-2016.pdf) ⭐ 1,018 | 🐛 3 | 📅 2022-09-20
-* [parca-agent](https://github.com/parca-dev/parca-agent) ⭐ 750 | 🐛 189 | 🌐 Go | 📅 2026-11-22 - 基于eBPF的持续分析CPU和内存使用情况的分析器，可分析到代码行和时间流逝情况。
+* [parca-agent](https://github.com/parca-dev/parca-agent) ⭐ 750 | 🐛 186 | 🌐 Go | 📅 2026-11-23 - 基于eBPF的持续分析CPU和内存使用情况的分析器，可分析到代码行和时间流逝情况。
 * [SkyWalking Rover](https://github.com/apache/skywalking-rover) ⭐ 238 | 🐛 0 | 🌐 Go | 📅 2026-11-22 - [Apache SkyWalking](https://skywalking.apache.org/)是一个专门为分布式微服务、云原生和基于容器（Kubernetes）架构而设计的开源应用程序性能监控（APM）平台。SkyWalking Rover是一个基于eBPF的调试器和度量收集器，支持C、C++、Golang和Rust应用程序。
 * [rbperf](https://github.com/javierhonduco/rbperf) ⭐ 124 | 🐛 8 | 🌐 Rust | 📅 2024-04-21 - 用于Ruby的采样分析器和跟踪器。
 * [DEEP-mon](https://www.slideshare.net/necstlab/deepmon-dynamic-and-energy-efficient-power-monitoring-for-containerbased-infrastructures) - 用于测量服务器能耗的工具，利用eBPF程序进行数据聚合处理。
 
 ### 安全
 
-* [Tetragon](https://github.com/cilium/tetragon) ⭐ 5,200 | 🐛 324 | 🌐 C | 📅 2026-11-22 - 面向 Kubernetes、基于 eBPF 的安全监测和运行时强制执行工具。
-* [Tracee](https://github.com/aquasecurity/tracee) ⭐ 4,680 | 🐛 132 | 🌐 Go | 📅 2026-11-01 - 一款用于 Linux 的运行时安全和取证工具，它使用 eBPF 技术对系统和应用程序进行跟踪，在运行时分析收集的事件以检测可疑的行为模式。
-* [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) ⭐ 2,190 | 🐛 46 | 🌐 C | 📅 2026-11-16 - 一款安全监控工具。它依赖于[SysinternalsEBPF](https://github.com/Sysinternals/SysinternalsEBPF) ⭐ 288 | 🐛 15 | 🌐 C | 📅 2026-11-06。
+* [Tetragon](https://github.com/cilium/tetragon) ⭐ 5,204 | 🐛 328 | 🌐 C | 📅 2026-11-24 - 面向 Kubernetes、基于 eBPF 的安全监测和运行时强制执行工具。
+* [Tracee](https://github.com/aquasecurity/tracee) ⭐ 4,683 | 🐛 132 | 🌐 Go | 📅 2026-11-01 - 一款用于 Linux 的运行时安全和取证工具，它使用 eBPF 技术对系统和应用程序进行跟踪，在运行时分析收集的事件以检测可疑的行为模式。
+* [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux) ⭐ 2,191 | 🐛 46 | 🌐 C | 📅 2026-11-16 - 一款安全监控工具。它依赖于[SysinternalsEBPF](https://github.com/Sysinternals/SysinternalsEBPF) ⭐ 288 | 🐛 15 | 🌐 C | 📅 2026-11-06。
 * [bpflock - 锁定 Linux 机器](https://github.com/linux-lock/bpflock) ⭐ 158 | 🐛 4 | 🌐 C | 📅 2022-02-16 - 一种基于 eBPF 的安全工具，用于锁定和审计 Linux 机器。
 * [redcanary-ebpf-sensor](https://github.com/redcanaryco/redcanary-ebpf-sensor) ⭐ 118 | 🐛 0 | 🌐 C | 📅 2026-06-26 - 一组 BPF 程序，从 Linux 内核中收集与安全相关的事件数据。BPF 程序组合成一个单独的 ELF 文件，可以根据运行的操作系统和内核版本选择性加载单个探针。
 * [Falco](https://falco.org/) - 一款云原生的运行时安全项目，用作 Kubernetes 威胁检测引擎。
@@ -377,7 +377,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ### 工具
 
-* [inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) ⭐ 2,975 | 🐛 440 | 🌐 C | 📅 2026-11-20 - 基于 eBPF 的工具集合，用于调试和检查 Kubernetes 资源和应用程序。
+* [inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) ⭐ 2,977 | 🐛 442 | 🌐 C | 📅 2026-11-23 - 基于 eBPF 的工具集合，用于调试和检查 Kubernetes 资源和应用程序。
 * [kubectl trace](https://github.com/iovisor/kubectl-trace) ⭐ 2,188 | 🐛 49 | 🌐 Go | 📅 2026-04-16 - 一个用于在 Kubernetes 集群中执行 bpftrace 程序的 kubectl 插件。
 * [redbpf](https://github.com/foniod/redbpf) ⚠️ Archived - 用于高效编写 Rust 中的 eBPF 代码的工具和框架。
 * [bpfd](https://github.com/genuinetools/bpfd) ⭐ 484 | 🐛 5 | 🌐 Go | 📅 2021-05-07 - 运行带有 Linux 规则的 BPF 程序的框架。 容器感知。
@@ -393,7 +393,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 # eBPF 在安全领域的应用
 
 * [TripleCross](https://github.com/h3xduck/TripleCross) ⭐ 1,997 | 🐛 19 | 🌐 C | 📅 2024-04-07 - 一个Linux eBPF rootkit，具有后门、C2、库注入、执行劫持、持久性和隐蔽性能力。
-* [ebpfkit](https://github.com/Gui774ume/ebpfkit) ⭐ 870 | 🐛 4 | 🌐 C | 📅 2023-02-28 - 利用多种eBPF特性实施攻击性安全技术的rootkit。
+* [ebpfkit](https://github.com/Gui774ume/ebpfkit) ⭐ 869 | 🐛 4 | 🌐 C | 📅 2023-02-28 - 利用多种eBPF特性实施攻击性安全技术的rootkit。
 * [Bad BPF](https://github.com/pathtofile/bad-bpf) ⭐ 712 | 🐛 2 | 🌐 C | 📅 2024-07-07 - 恶意eBPF程序的集合，利用eBPF在用户模式程序和内核之间读写用户数据的能力。
 * [ebpfkit-monitor](https://github.com/Gui774ume/ebpfkit-monitor) ⭐ 145 | 🐛 2 | 🌐 C | 📅 2023-02-28 - 一个实用程序，可在运行时静态分析eBPF字节码或监视可疑的eBPF活动。它专为检测ebpfkit而设计。
 * [Embrace The Red: Offensive BPF!](https://embracethered.com/blog/tags/ebpf) - 一系列关于BPF介绍的文章，侧重于攻击性场景，以及如何检测其滥用。其中包括关于eBPF的rootkit能力的讨论，或者哪种追踪类型适用于不同的用例。
@@ -426,7 +426,7 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ## 开发和社区
 
-* [XDP 协作项目](https://github.com/xdp-project/xdp-project) ⭐ 314 | 🐛 6 | 🌐 CSS | 📅 2026-08-12 - 一个 GitHub 仓库，提供关于 XDP 未来发展的笔记和想法。
+* [XDP 协作项目](https://github.com/xdp-project/xdp-project) ⭐ 315 | 🐛 6 | 🌐 CSS | 📅 2026-08-12 - 一个 GitHub 仓库，提供关于 XDP 未来发展的笔记和想法。
 * [bpf-next 树](https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/) - BPF 补丁会被合并进这棵树。它会被定期合并到 [net-next](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git)，然后每个版本的发布都会合并到 Linus 的树。
 * [内核文档](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/Documentation/bpf/bpf_devel_QA.rst) - 关于对 BPF 的贡献。
 * [netdev 邮件列表](http://lists.openwall.net/netdev/) - 用于 Linux 内核网络栈开发的邮件列表。所有补丁都会发送到此处进行审核和合并。
@@ -456,4 +456,4 @@ BPF，即伯克利数据包过滤器（Berkeley Packet Filter），是一个运�
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-22._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-24._
